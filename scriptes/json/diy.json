@@ -1,0 +1,19 @@
+[
+    {
+        "id": "diy",
+        "title": "Diy",
+        "intro": "Download jullie eigen workshop programma met app & instructie video’s!",
+        "about": "Vraag naar de nieuwe mogelijkheden. Volg onze uitleg en ervaar de spanning en teambuilding. Los samen de puzzels op en ontsnap aan de eliminatie. ",
+        "goals": "samenwerken in teamverband, creatief nadenken, oplossingsgericht nadenken. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal/ ruimte, digiboard of flipover, pennen en papier",
+        "given": "instructie- video’s, lijst van aankopen (goedkoop en simpel)",
+        "result": "presentatie",
+        "img": "diy.jpg",
+        "video": "",
+        "bso":  true
+    }
+
+]

@@ -1,0 +1,143 @@
+#gallery{
+    height: auto;
+    margin-top: 3%;
+    background-color: rgb(73, 48, 114);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 30px;
+}
+
+.my-col{
+    padding-right: 2%;
+    transition: padding 0.2s;
+}
+
+.my-col:hover{
+    cursor: pointer;
+    padding-right: 3%;
+}
+
+#galleryTitle{
+    position: relative;
+    margin-bottom: -12%;
+} 
+
+#galleryTopHalf{
+    margin-top: 1%;
+}
+
+/* #galleryBottom Half{
+    position: relative;
+    height: 150px;
+    width: 1200px;
+    overflow: hidden;
+} */
+
+
+#w0{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Beeldkunst.png);
+    background-size: cover;
+
+}
+
+#w1{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Science.png);
+    background-size: cover;
+
+}
+
+#w2{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Dans.png);
+    background-size: cover;
+
+}
+
+#w3{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Muziek.png);
+    background-size: cover;
+
+}
+
+#w4{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Health-wellness-sport.png);
+    background-size: cover;
+
+}
+
+#w5{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Taal.png);
+    background-size: cover;
+
+}
+
+#w6{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Teamwork.png);
+    background-size: cover;
+
+}
+
+
+#w7{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/Theater.png);
+    background-size: cover;
+
+}
+
+#w8{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/diy.jpg);
+    background-size: cover;
+
+}
+
+#w9{
+    height: 150px;
+    background-image: url(../../media/fotos/gallery/reeks.png);
+    background-size: cover;
+
+}
+
+
+
+.galleryFoto:hover{
+    cursor: pointer;
+}
+
+
+#galleryBottomText{
+    position: relative;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+#corona{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    left: 80%;
+    top: 60px;
+}
+
+#cjpGif{
+    position: relative;
+    width: 100px;
+    height: 65px;
+    left: 90%;
+    top: 10px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}

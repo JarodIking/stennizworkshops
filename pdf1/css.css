@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(90deg, #4158d0 0%, #6356cc 25%, #8154c8 50%, #a252c4 75%, #c850c0 100%);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+    color: white;
+
+}
+
+img{
+    position: relative;
+    height: 1000px;
+    widows: 500px;
+    transform: scale(0.9);
+    margin-left: auto;
+    margin-right: auto;
+}
