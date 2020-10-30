@@ -20,6 +20,9 @@
         <script src="scriptes/JavaScript/galleryAnimation.js"></script>
         <script src="scriptes/JavaScript/jquery.validate.min.js"></script>
 
+        <meta name="robots">
+        <meta name="googlebot" all="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     </head>
     <body>
