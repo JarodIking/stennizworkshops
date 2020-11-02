@@ -30,10 +30,11 @@ $(window).ready(function (){
     var beeldkunst = 0;
 
     $("#w0").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 0);
-        $.getScript("scriptes/JavaScript/workshop.js");
+        window.location.href='workshopPages/beeldkunst/'
+        // $("#gallery").attr('id' , 'galleryWorkshop');   
+        // $("#galleryWorkshop").empty();
+        // sessionStorage.setItem("workshop" , 0);
+        // $.getScript("scriptes/JavaScript/workshop.js");
     });
 
     $("#w1").click(function(){

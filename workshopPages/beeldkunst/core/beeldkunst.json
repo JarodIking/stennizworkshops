@@ -1,0 +1,325 @@
+[
+
+    {
+        "id": "3dAnimatie",
+        "title": "3D Animatie",
+        "intro": "Maak jouw eigen 3d animatiefilm!",
+        "about": "Bedenk jouw eigen verhaal en geef het vorm in 3D. Maak naast het script jouw eigen stemmen/dialogen.",
+        "goals": "technisch inzicht, creatief denken, ruimtelijk denken, teambuilding en presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met digiboard of stroom",
+        "given": "tablets, materialen",
+        "result": "presentatie eventueel",
+        "img": "animatie.jpg",
+        "video": "",
+        "bso":  false    
+    },
+
+    {
+        "id": "cartoonTekenen",
+        "title": "Cartoon Tekenen",
+        "intro": "Word een striptekenaar!",
+        "about": "Wil jij jouw eigen levensverhaal tekenen of jouw eigen held willen ontwerpen? Pak de potlood of pen!",
+        "goals": "creatief denken, verhalen bedenken, karikaturen maken, visualisatie.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "75-90 min",
+        "required": "lokaal/ ruimte, digibord is een pré",
+        "given": "tekenmaterialen, voorbeelden",
+        "result": "presentatie eventueel ophangen",
+        "img": "cartoon.jpg",
+        "video": "",
+        "bso":  false    
+    },
+
+    {
+        "id": "gameDesign",
+        "title": "Game Design",
+        "intro": "Speel zelf in jouw eigen game!",
+        "about": "Fotografeer jezelf of een pop van klei en plaats deze in jouw eigen game.",
+        "goals": "creatief denken, tekenen, visueel inzicht",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 – 90 min",
+        "required": "lokaal/ ruimte, digibord is een pré",
+        "given": "greenscreen, tablets, klei, groene vellen papier",
+        "result": "speel elkaars level aan het einde voor een wedstrijd",
+        "img": "gamedesign.jpg",
+        "video": "",
+        "bso":  true   
+    },
+
+
+    {
+        "id": "gameDesignClient",
+        "title": "Game Design (client)",
+        "intro": "Speel samen met jouw naaste!",
+        "about": "Onze app is gemaakt om kleinkinderen, opa & oma of zieken samen te brengen op een creatieve manier.",
+        "goals": "creatief denken, tekenen, visueel inzicht",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 2 t/m onbeperkt",
+        "time": "75 – 90 min",
+        "required": "Lokaal/ ruimte, digibord is een pré",
+        "given": "greenscreen, tablets, klei, groene vellen papier",
+        "result": "speel elkaars level aan het einde voor een wedstrijd",
+        "img": "gamedesignclient.jpg",
+        "video": "",
+        "bso":  true   
+    },
+
+    {
+        "id": "graffiti",
+        "title": "Graffiti",
+        "intro": "Spray jouw old school kunst!",
+        "about": "De deelnemers krijgen uitleg over verschillende spray technieken en een demonstratie met de spuitbus. Daarna is het tijd om jezelf te uiten en jouw eigen stijl te ontwikkelen.",
+        "goals": "creatief denken, tekenen, visueel inzicht, presentatietechnieken",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 – 90 min",
+        "required": "ruimte buiten of afgeplakt, grote vellen papier",
+        "given": "spuitbussen en beschermingsmateriaal ",
+        "result": "eigen doek of canvas om op te hangen",
+        "img": "grafitti.jpg",
+        "video": "",
+        "bso":  true
+    
+    },
+
+    {
+        "id": "greenscreen",
+        "title": "Greenscreen",
+        "intro": "Verplaats jezelf in een andere wereld!",
+        "about": "Bedenk jouw eigen verhaal en fotografeer deze met behulp van onze docent. Maak een eigen storyboard en laat zien dat je geen groentje bent met jouw eigen productie. te laten zien.",
+        "goals": "creatief denken, tekenen, visueel inzicht, presentatietechnieken",
+        "age": "4 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 – 90 min",
+        "required": "lokaal/ ruimte, digibord is een pré",
+        "given": "greenscreen, camera, fotografie studio en lampen",
+        "result": "filmpje per groep",
+        "img": "greenscreen.jpg",
+        "video": "",
+        "bso":  true
+    
+    },
+
+    {
+        "id": "grime",
+        "title": "Grime",
+        "intro": "Jouw gezicht is een kunstwerk!",
+        "about": "Maak een creatief ontwerp, plaats het met jouw grime partner op het gezicht en laat het zien. te laten zien.",
+        "goals": "creatief denken, tekenen, visueel inzicht, samenwerken",
+        "age": "4 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 – 90 min",
+        "required": "lokaal/ ruimte, wasbakken is een pré",
+        "given": "schmink materiaal en benodigdheden",
+        "result": "resultaat mee naar huis indien gewenst",
+        "img": "grime.jpg",
+        "video": "",
+        "bso":  false
+    
+    },
+
+    {
+        "id": "grimeSpecialFx",
+        "title": "Grime Special FX",
+        "intro": "Ervaar de kunst van Hollywood!",
+        "about": "Je ziet in films vaak best enge wonden en gezichten. Ervaar hoe het is om dit eens zelf te maken en dat actie en zelfs horror eigenlijk allemaal nep en juist kunst is laten zien.",
+        "goals": "creatief denken, tekenen, visueel inzicht, samenwerken",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 – 90 min",
+        "required": "lokaal/ ruimte, wasbakken is een pré",
+        "given": "schmink materiaal en benodigdheden  ",
+        "result": "resultaat mee naar huis indien gewenst",
+        "img": "grimefx.jpg",
+        "video": "",
+        "bso":  false
+    
+    },
+
+    {
+        "id": "grimeTattoo",
+        "title": "Grime Tattoo",
+        "intro": "Ontwerp jouw tijdelijke tattoo!",
+        "about": "Ga aan de slag met het ontwerpen van een tattoo en krijg interessante tips en tricks om deze te plaatsen met henna. Show jouw resultaat aan het einde.",
+        "goals": "technisch inzicht, creatief denken, ruimtelijk denken, teambuilding en presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte, wasbakken pré",
+        "given": "Henna, schetsmaterialen",
+        "result": "showen, presentatie eventueel",
+        "img": "grimetattoo.jpg",
+        "video": "",
+        "bso":  false
+    
+    },
+
+    {
+        "id": "handletteren",
+        "title": "Handletteren",
+        "intro": "Maak jouw bericht persoonlijk!",
+        "about": "Leer nieuwe teken- en schrijfstijlen om een eigen boodschap nog persoonlijker over te brengen. ",
+        "goals": "creatief denken, schrijven en presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "ruimte buiten of afgeplakt, grote vellen papier",
+        "given": "inkt, pennen, schetsmaterialen",
+        "result": "showen, presentatie eventueel",
+        "img": "handletteren.jpg",
+        "video": "",
+        "bso":  true
+    
+    },
+
+    {
+        "id": "illustreren",
+        "title": "Illustreren",
+        "intro": "Teken jouw eigen creatie!",
+        "about": "Wil jij jouw eigen levensverhaal tekenen of jouw vormen willen tekenen. Laat jezelf inspireren door onze artiest.te brengen.",
+        "goals": "creatief denken, schetsen en tekenen, ruimtelijke vormgeving en presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte",
+        "given": "Inkt, pennen, schetsmaterialen",
+        "result": "showen, presentatie eventueel",
+        "img": "illustreren.jpg",
+        "video": "",
+        "bso":  false
+    },
+    
+
+    {
+        "id": "legoMotion",
+        "title": "Lego Motion",
+        "intro": "Maak jouw eigen Lego film!",
+        "about": "Bedenk jouw eigen verhaal, hoofdpersonen, locatie en situatie. Fotografeer met jouw mooi belichte setting met meerdere foto’s en maak een filmpje om te kunnen showen.",
+        "goals": "creatief denken, script schrijven, beeldende vormgeving, editen",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "Lokaal/ ruimte",
+        "given": "tablets, lego, licht studio’s, achtergrond vellen",
+        "result": "films",
+        "img": "legomotion.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "lightGrafiti",
+        "title": "Light Graffiti",
+        "intro": "Teken een kleurrijke foto met licht!",
+        "about": "Bij Light Graffiti wordt er met licht 'getekend' hetgeen wordt vastgelegd door een fotocamera met lange sluitertijd. Dit kan overal worden uitgevoerd want er blijft geen resultaat achter in het straatbeeld of in het milieu.",
+        "goals": "camera sluitertijd technieken, creatief denken en presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met digiboard of stroom",
+        "given": "camera, tablets",
+        "result": "foto presentatie",
+        "img": "lightg.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+
+    {
+        "id": "vr",
+        "title": "Virtual Reality",
+        "intro": "Bouw een mini virtuele wereld!",
+        "about": "Bouw met onze apps een eigen wereld en loop hier zelf in rond!",
+        "goals": "creatief denken, ruimtelijk inzicht, tekenen, inlevingsvermogen",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met digiboard of stroom",
+        "given": "VR brillen 10 x, VR software",
+        "result": "tonen in de bril aan anderen aan het eind",
+        "img": "vr.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "vloggenX",
+        "title": "Vloggen XL",
+        "intro": "Vertel jouw verhaal en word een ster!",
+        "about": "Representeer jezelf op een originele manier en deel het. Maak jouw eigen Youtube filmpje of vlog. Leer hoe jij jouw eigen verhaal spannend kan maken en hoe jij dit kan presenteren voor de camera.",
+        "goals": "technisch inzicht, creatief denken, verhalen vertellen en presentatietechnieken",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met digiboard of stroom",
+        "given": "tablets en lichtmaterialen ",
+        "location": "Uw locatie",
+        "result": "film",
+        "img": "vloggenExtra.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "zeefdrukken",
+        "title": "Zeefdrukken",
+        "intro": "Leer en vernieuw deze drukkunst!",
+        "about": "Van T-shirts, posters tot canvas illustraties, alles is mogelijk. ",
+        "goals": "creatief denken, schetsen en tekenen, presentatietechnieken",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "Lokaal/ ruimte met wasbakken (must ivm schoonspoelen)",
+        "given": "zeefdrukken, verf en inkt, schetsmateriaal ",
+        "location": "uw locatie",
+        "result": "fysiek kunstwerk op papier of stof (in overleg)",
+        "img": "zeefdrukken.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "ER-OntsnapDeKermis",
+        "title": "ER – Onstnap de Kermis",
+        "intro": "Ontgrendel games en ontsnap aan de clown!",
+        "about": "Uw lokaal of ruimte wordt een Escape room vol met spannende puzzels, teamspellen en munten. Er worden twee teams gevormd die tegen elkaar en de klok strijden om de benodigde punten te behalen.",
+        "goals": "technisch inzicht, nadenken en samenwerken, betrokkenheid, energie en vertrouwen in jezelf door te presteren",
+        "age": "4 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal of gesloten ruimte (geen gymzaal), digiboard pré; schatkisten, puzzels etc. Laptop en audiosysteem",
+        "given": "",
+        "location": "uw locatie",
+        "result": "teambuilding en voldoening blijdschap bij het winnen",
+        "img": "kemris.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    
+    {
+        "id": "kerstkaart",
+        "title": "Post drukkerij",
+        "intro": "Persoonlijk en liefdevol!",
+        "about": "Maak een eigen kaart met creatieve inhoud en een persoonlijke enveloppe!",
+        "goals": "samenwerken, vertrouwen",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "75 – 90 minuten",
+        "required": "gesloten ruimte en scharen",
+        "given": "Printmateriaal en apparaat, enveloppe machine en kleuren",
+        "result": "eer en winst",
+        "img": "post.jpg",
+        "video": "",
+        "bso":  true
+    }
+
+
+
+
+]
