@@ -21,14 +21,35 @@ $(window).ready(function(){
 
     // navbar links----------------------------------------------------------------------------------------------
     $("#contact").click(function(){
-        // $("#galleryWorkshop").attr("id", "galleryContact");
-        // $("#galleryContact").empty();
+        window.location.href = '../../scriptes/html/contact.html'
     });
 
     $('#overOns').click(function(){
-        // $('#galleryWorkshop').attr("id", "galleryOverOns");
-        // $("#galleryOverOns").empty();
+        window.location.href = '../../scriptes/html/overOns.html'
     })
+
+    $('#home').click(()=>{
+        window.location.href='http://www.stennizworkshops.nl'
+    })
+
+    $('#link1').click(()=>{
+        window.location.href='../bso/'
+    })
+
+    $('#link2').click(()=>{
+        window.location.href='../bso/'
+    })
+
+    $('#toTeamwork').click(()=>{
+        window.location.href='../teamwork';
+    })
+
+    $('#navbarImg').click(()=>{
+        window.location.href='http://www.stennizworkshops.nl'
+    })
+
+
+
 
 
     // --------------------------------------------------------------------------------------------------------

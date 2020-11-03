@@ -1,0 +1,200 @@
+[
+
+    {
+        "id": "rapresent",
+        "title": "Rap",
+        "intro": "Pak de microfoon en laat jezelf horen!",
+        "about": "Tijdens deze workshop gaan de deelnemers met de hele groep en individueel rap teksten schrijven. Er komt een korte geschiedenisles voorbij over het ontstaan van de rap en Hiphop en een demonstratie van de docent voor extra inspiratie.",
+        "goals": "samenwerken in teamverband, creatief nadenken, humor en dubbelzinnigheid toepassen, woordenschat en poëtisch leren schrijven",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal/ ruimte, digiboard of flipover, pennen en papier",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "",
+        "img": "rap.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "spokenWord",
+        "title": "Spoken Word",
+        "intro": "Pak de microfoon en laat jouw stem horen!",
+        "about": "Tijdens deze workshop gaan de deelnemers met de hele groep en individueel gedicht teksten schrijven. Er komt een korte geschiedenisles voorbij over het ontstaan van de poëzie en een demonstratie van de docent voor extra inspiratie.",
+        "goals": "samenwerken in teamverband, creatief nadenken, humor en dubbelzinnigheid toepassen, woordenschat en poëtisch leren schrijven",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal/ ruimte, digiboard of flipover, pennen en papier",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "",
+        "img": "Spokenword.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "bloggen",
+        "title": "Bloggen",
+        "intro": "",
+        "about": " Blogs zie je tegenwoordig overal op internet. Je vormt daarmee de meest zichtbare vorm van literatuur. Blogs zijn voor iedereen toegankelijk, je kunt publiceren zonder bij een redactie of een uitgever te moeten zitten. Maar hoe makkelijk of moeilijk is het om blogs te schrijven? In deze cursus leer je aan de hand van schrijf oefeningen, voorbeelden en technieken bloggen. Leer boeiende, scherpe blogs (columns) schrijven, met stijl en humor.",
+        "goals": "verschillende schrijfstijlen leren, creatief nadenken, Verhalen ordenen tot een geheel, Juiste woordkeuze en formuleren, Leer het nut van een online blog",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal, pen en papier",
+        "given": "docent, Geluidsysteem",
+        "result": "",
+        "img": "Bloggen.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "verhaalVertellen",
+        "title": "Verhaal Vertellen",
+        "intro": "Leef jou in, in het verhaal!",
+        "about": "Na een introductie waarbij de docent de technieken en begrippen van het verhalen vertellen uitlegt, worden de leerlingen aan het werk gezet met het maken van een eigen verhaal. ",
+        "goals": "verhaal brengen met intonatie en timing, Presentatietechnieken, Creativiteit en eigen inbreng.",
+        "age": "Jongeren en ouderen",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal, pen en papier",
+        "given": "geluidsysteem",
+        "result": "",
+        "img": "verhaal.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "vloggen",
+        "title": "Vloggen",
+        "intro": "",
+        "about": "Vloggen is het maken van een video waarin je mensen meeneemt in jou leven, je kan het ook zien als een videoblog. YouTube staat vol met vloggers een van de bekendste is Enzo Knol.",
+        "goals": "structureel plannen en script schrijven, creatief nadenken, presentatietechnieken individueel.",
+        "age": "Jongeren en ouderen",
+        "amount": "tot 25 a 30",
+        "time": "1 tot 2 uur, lessenserie mogelij",
+        "required": "lokaal, pen en papier",
+        "given": "docent, tablets om te filmen en editen",
+        "result": "",
+        "img": "Vloggen.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "poëzie",
+        "title": "Poëzie",
+        "intro": "",
+        "about": "Laat de woorden rollen en tollen over het papier en spreek ze uit. Breng je tekst tot leven door oefeningen en feedback leer jij hoe je poëzie moet schrijven. Natuurlijk gaat het ook bij poëzie om de inhoud, maar vorm, klank en beeldspraak zijn zeker zo belangrijk. Luister aan het einde van de workshop naar het eindresultaat van de poëzie teksten.",
+        "goals": "woordenschat, Creatief nadenken, Betekenis en gebruik dubbelzinnigheid",
+        "age": "Jongeren en ouderen",
+        "amount": "tot 25 a 30",
+        "time": "1 tot 2 uur, lessenserie mogelij",
+        "required": "lokaal, pen en papier",
+        "given": "docent, Geluidsysteem, microfoons en opname studio",
+        "result": "",
+        "img": "Poezie.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "cabarapMetHumorRappen",
+        "title": "Cabarap met humor rappen",
+        "intro": "",
+        "about": " Cabarap is een kruising tussen cabaret en rap. Ga aan de slag met grappige teksten en gooi ze om tot rap. Ga tegen elkaar cabarappen en geniet van de verschillende uitkomsten. Je leert technieken hoe je grappig kunt zijn op het podium daar vanuit ga je aan de slag met rappen. Laat je fantasie helemaal erop los gaan.",
+        "goals": "Samenwerken in teamverband, Creatief nadenken, Humor technieken, Woordenschat, Poëtisch schrijven",
+        "age": "Jongeren en ouderen",
+        "amount": "tot 25 a 30",
+        "time": "1 tot 2 uur",
+        "required": "lokaal",
+        "given": "docent, Geluidsysteem met microfoon en studio materiaal",
+        "result": "",
+        "img": "cabaret.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "poetrySlam",
+        "title": "Poetry-slam",
+        "intro": "In deze workshop maken de leerlingen kennis met de wereld van poetry slam!",
+        "about": "In de workshop wordt er verteld over een stukje geschiedenis van Poetry-Slam. Ze leren dat veel Poetry-Slams geschreven zijn vanuit een gevoel van protest. Daarna gaan ze zelf aan de slag. De workshop draait rond de klank en het ritme van de taal. Ze maken gedichten die voornamelijk ontstaan uit klank-, ritme- en taalassociaties of uit een stream of consciousness.",
+        "goals": "Tijdens het schrijven en bewerken van de gedichten lezen ze deze luid op, We geven de leerlingen wat meer zelfvertrouwen om sneller het podium op te stappen.",
+        "age": "Jongeren en ouderen",
+        "amount": "tot 25 a 30",
+        "time": "1 tot 2 uur",
+        "required": ": lokaal, pen en papier",
+        "given": "",
+        "result": "",
+        "img": "Spokenword.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "filmScript",
+        "title": "Film script",
+        "intro": "in deze workshop maken de leerlingen kennis met de wereld van poetry slam!",
+        "about": "Bij het maken van een film, commercial, speelfilm of soap is, speelt het script een belangrijke rol. Het script vertelt de boodschap en het genre en zet uiteen hoe de verschillende scénes eruit komen te zien. Maar hoe doe je dat nou, als je nog nooit een script hebt geschreven? Uiteraard helpt de workshop docent je een eind op weg, maar je gaat een eigen verhaal lijn er aan toevoegen. Aan het einde van de workshop ga je naar elkaar filmscrips luisteren.",
+        "goals": "verschillende schrijfstijleen leren, creatief nadenken, juiste woordkeuze en formuluren",
+        "age": "Jongeren en ouderen",
+        "amount": "Maximaal 30 per ronde",
+        "time": "1 tot 2 uur",
+        "required": ": lokaal met whiteboard of flipover en digiboard of TV met HDMI kabel, pen en papier.",
+        "given": "Docent, geluidsysteem",
+        "result": "",
+        "img": "film.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "rapBattle",
+        "title": "Rap battle",
+        "intro": "",
+        "about": "Tijdens deze workshop gaan de deelnemers rap teksten maken in kleine groepjes. Er komt een korte geschiedenisles voorbij over het ontstaan van de rap en Hiphop. Tijdens het schrijven van de teksten worden alle raptechnieken eigen gemaakt en gaan de groepjes aan het einde van de les tegen elkaar battle.",
+        "goals": "verschillende schrijfstijleen leren, creatief nadenken, juiste woordkeuze en formuluren",
+        "age": "Jongeren en ouderen",
+        "amount": "Maximaal 30 per ronde",
+        "time": "1 tot 1,5 uur of lessenserie",
+        "required": ": lokaal met whiteboard of flipover en digiboard of TV met HDMI kabel, pen en papier.",
+        "given": "Docent, geluidsysteem",
+        "result": "",
+        "img": "Rapbattle.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "songwritting",
+        "title": "Songwriting",
+        "intro": "Wie is de beste singer-songwriter?",
+        "about": "Onze artiest bespreekt met de leerlingen de verschillende vormen van songteksten, gesproken gedichten, rap en zang. Uitleg over zang, melodielijnen, tweede stem, back-upzang en ad libs. Aan het einde presenteren de deelnemers de songs aan elkaar.",
+        "goals": "rap- en zangles beginners, technische opbouw muziek, 1 geheel samenvoegen, samenwerken, presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met digiboard of stroom",
+        "given": "studio- en audioapparatuur, studiomicrofoon, laptop",
+        "result": "presentatie eventueel",
+        "img": "songwritting.jpg",
+        "video": "",
+        "bso":  true
+    }
+
+
+
+
+
+
+
+
+
+
+
+]

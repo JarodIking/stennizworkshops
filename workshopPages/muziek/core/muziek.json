@@ -1,0 +1,209 @@
+[
+    {
+        "id": "beatMaking",
+        "title": "Beat Making",
+        "intro": "Maak jouw eigen vette beat!",
+        "about": "Tijdens deze workshop gaan de deelnemers in tweetallen een eigen beat maken. ",
+        "goals": "ritmegevoel en presentatietechnieken komen aan bod.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "1,5 uur",
+        "required": "lokaal (met voorkeur een digiboard)",
+        "given": "10 tablets, audio apparatuur ",
+        "result": "muziekstuk laten horen",
+        "img": "beatMaking.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "kertmix",
+        "title": "Kerstmix",
+        "intro": "Steek een oud kerstlied in een nieuw jasje!",
+        "about": "Tijdens deze workshop gaan de deelnemers in tweetallen een eigen mix maken. ",
+        "goals": "ritmegevoel en presentatietechnieken komen aan bod.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "1,5 uur",
+        "required": "lokaal (met voorkeur een digiboard)",
+        "given": "10 tablets, audio apparatuur ",
+        "result": "muziekstuk laten horen",
+        "img": "kerstmix.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "rapstudio",
+        "title": "Rap",
+        "intro": "Pak de microfoon en laat jezelf horen!",
+        "about": "Tijdens deze workshop gaan de deelnemers met de hele groep en individueel rap teksten schrijven. Er komt een korte geschiedenisles voorbij over het ontstaan van de rap en Hiphop en een demonstratie van de docent voor extra inspiratie.",
+        "goals": "samenwerken in teamverband, creatief nadenken, humor en dubbelzinnigheid toepassen, woordenschat en poëtisch leren schrijven",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal/ ruimte, digiboard of flipover, pennen en papier",
+        "given": "Microfoon, boxen, studio en audio apparatuur ",
+        "result": "",
+        "img": "rap.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+
+    {
+        "id": "remix",
+        "title": "Remix",
+        "intro": "Maak jouw eigen vette mix!",
+        "about": "Tijdens deze workshop gaan de deelnemers in tweetallen een eigen beat maken. ",
+        "goals": "ritmegevoel en presentatietechnieken komen aan bod.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "1,5 uur",
+        "required": "lokaal (met voorkeur een digiboard)",
+        "given": "10 tablets, audio apparatuur ",
+        "result": "muziekstuk laten horen",
+        "img": "remix.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "scratchen",
+        "title": "Scratchen",
+        "intro": "Leer hoe je kan scratchen zonder platen kapot te maken!",
+        "about": "Tijdens deze workshop gaan de deelnemers in tweetallen een eigen scratch presentatie maken. ",
+        "goals": "ritmegevoel en presentatietechnieken komen aan bod.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "1,5 uur",
+        "required": "lokaal (met voorkeur een digiboard)",
+        "given": "10 tablets, audio apparatuur ",
+        "result": "muziekstuk laten horen",
+        "img": "scratchen.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "slagwerk",
+        "title": "Slagwerk",
+        "intro": "Maak een vette beat met de groep!",
+        "about": "Tijdens deze workshop gaan de deelnemers in teamverband een eigen beat maken. ",
+        "goals": "ritmegevoel en presentatietechnieken komen aan bod.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "1,5 uur",
+        "required": "lokaal (met voorkeur een digiboard)",
+        "given": "10 tablets, audio apparatuur ",
+        "result": "muziekstuk laten horen",
+        "img": "slagwerk.jpg",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "songwritting",
+        "title": "Songwriting",
+        "intro": "Wie is de beste singer-songwriter?",
+        "about": "Onze artiest bespreekt met de leerlingen de verschillende vormen van songteksten, gesproken gedichten, rap en zang. Uitleg over zang, melodielijnen, tweede stem, back-upzang en ad libs. Aan het einde presenteren de deelnemers de songs aan elkaar.",
+        "goals": "rap- en zangles beginners, technische opbouw muziek, 1 geheel samenvoegen, samenwerken, presentatietechnieken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met digiboard of stroom",
+        "given": "studio- en audioapparatuur, studiomicrofoon, laptop",
+        "result": "presentatie eventueel",
+        "img": "songwritting.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "soundDesign",
+        "title": "Sound Design",
+        "intro": "Creëer eigen geluidseffecten op een film!",
+        "about": "De leerlingen werken op Tablets om eigen geluidseffecten en stemmen op te nemen op een bestaand animatiefilmpje. De docent laat de leerlingen verschillende oefeningen doen waarmee de creativiteit wordt losgemaakt en leerlingen leren durven! ",
+        "goals": "Samenwerken in teamverband, Creatief nadenken in verband met originele zelfgemaakte geluidseffecten en eventueel muziek.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "75 tot 90 min",
+        "required": "lokaal/ ruimte met eventueel een digibord",
+        "given": "apparaten, instrumentjes, speaker en tablets",
+        "result": "presentatie eventueel op digibord of tablet en speaker",
+        "img": "sounddesign.png",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "spokenWord",
+        "title": "Spoken Word",
+        "intro": "Pak de microfoon en laat jouw stem horen!",
+        "about": "Tijdens deze workshop gaan de deelnemers met de hele groep en individueel gedicht teksten schrijven. Er komt een korte geschiedenisles voorbij over het ontstaan van de poëzie en een demonstratie van de docent voor extra inspiratie.",
+        "goals": "samenwerken in teamverband, creatief nadenken, humor en dubbelzinnigheid toepassen, woordenschat en poëtisch leren schrijven",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "lokaal/ ruimte, digiboard of flipover, pennen en papier",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "",
+        "img": "spokenword.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "streetbeats",
+        "title": "Streetbeats",
+        "intro": "Maak een bombastische beat met de groep!",
+        "about": "De workshop of presentatie zorgt voor veel energie met eenvoudige materialen en tonnen van de straat. Tijdens deze workshop gaan de deelnemers in teamverband een beat oefenen onder leiding van onze ervaren drummer.",
+        "goals": "ritmegevoel en presentatietechnieken komen aan bod.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "1,5 uur",
+        "required": "gymlokaal of ruime lege ruimte, stoelen (let op geluidsoverlast)",
+        "given": "tonnen en drumstokken",
+        "result": "muziekstuk laten horen",
+        "img": "streetbeats.png",
+        "video": "",
+        "bso":  false
+    },
+
+    {
+        "id": "eigenSong",
+        "title": "Eigen-song",
+        "intro": "Leer hoe bekende artiesten zoals Rihanna, Beyonce en Chris Brown beats maken en krijg een eigen song!",
+        "about": "Na een muzikale introductie door de producer docent, krijgen de leerlingen klassikaal realtime audio engineering uitgelegd op een groot scherm. Zowel basiselementen als bas, ritme en melodie worden gedemonstreerd, als allerlei profesioneele effecten. Hierna maken de leerlingen klassikaal en in teams een eigen song. De groep bepaalt alles, van het tempo, de drumstructuur tot de melodielijn. Voor de leerlingen die enthousiast zijn geworden voor mixen, geeft de docent aan het einde van de les nog handige tips voor het opnemen en mixen thuis. Een onvergetelijke workshop met een eigen song als eindresultaat!",
+        "goals": "De leerling leert de basislijnen, ranalytischluisteren naar muziek, De opbouw van popmuziek songs",
+        "age": "Jongeren en ouderen",
+        "amount": "",
+        "time": "",
+        "required": " lokaal, pen en papier",
+        "given": "",
+        "result": "",
+        "img": "eigensong.jpg",
+        "video": "",
+        "bso":  true
+    },
+
+    {
+        "id": "DJTechniek",
+        "title": "Dj techniek mixen",
+        "intro": "",
+        "about": "Ga experimenteren met de muziek en maak het tot iets nieuws door het mixen leer om een mooie overloop te maken na het volgende nummer en misschien sta jij wel als dj op jou schoolfeest.",
+        "goals": "ritme gevoel creëren, Creativiteit, Muziek/zang vaardingheden",
+        "age": "ongeren en oude",
+        "amount": "Maximaal 30 per ronde",
+        "time": "1 tot 1,5 uur of lessenserie",
+        "required": "lokaal met whiteboard of flipover en digiboard of TV met HDMI kabel, pen en papier.",
+        "given": "docent, geluidsysteem",
+        "result": "",
+        "img": "teamwork.jpg",
+        "video": "",
+        "bso":  true
+    }
+
+
+
+]

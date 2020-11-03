@@ -1,0 +1,199 @@
+[
+    {
+        "id": "africanShake",
+        "title": "African Shake",
+        "intro": "Laat je gaan en krijg nieuwe energie!",
+        "about": "De workshop begint met een nodige warming-up. De deelnemers leren een aantal basis passen van een dans en al snel wordt dit samengesmolten tot een complete danscombinatie. Desgewenst wordt er ook aandacht besteed aan het verhaal achter de dans.",
+        "goals": "geschiedenis Afrikaanse dans, motoriek, choreografie, presentatietechnieken.  ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "audio apparatuur ",
+        "result": "presentatie (optioneel)",
+        "img": "africanshake.jpg",
+        "video": "",
+        "bso":  false
+ 
+    },
+
+    {
+        "id": "balltleDance",
+        "title": "Battle Dance",
+        "intro": "Daag met jullie beste moves de andere crew uit!",
+        "about": "De deelnemers voelen zich vrij en leren hierdoor makkelijker verschillende dansvormen. Zij zijn dan in staat zelf te improviseren en hun eigen pasjes te bedenken. Door te bewegen op muziek met een stukje drama, leren de dansers een verhaal te vertellen aan andere groepen.",
+        "goals": "teambuilding, leiderschap, motoriek, choreografie, presentatietechnieken, zelfverzekerdheid.   ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "audio apparatuur s",
+        "result": "presentatie (optioneel)",
+        "img": "battledance.jpg",
+        "video": "",
+        "bso":  false
+ 
+    },
+
+    {
+        "id": "bodyBeat",
+        "title": "Bodybeat",
+        "intro": "Maak van jouw lichaam één groot instrument!",
+        "about": "Door ritmisch geluid te maken met jouw handen en benen wordt er in samenwerking met zijn allen een beat gemaakt. Deze workshop vraagt veel energie en actie en is goed in te zetten als teambuilding workshop.",
+        "goals": "samenwerken, ritmegevoel. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (geluid)",
+        "given": "speakers en muziek ",
+        "result": "presentatie",
+        "img": "bodybeat.jpg",
+        "video": "",
+        "bso":  true
+ 
+    },
+
+    {
+        "id": "bollywood",
+        "title": "Bollywood",
+        "intro": "Pak de microfoon en laat jezelf horen!",
+        "about": "Kleurrijke kostuums, rinkelende juwelen en sieraden en een gezellige ambiance zijn de ingrediënten voor deze spectaculaire dans.",
+        "goals": "presentatietechnieken, lef tonen, lichaamsbeweging, choreografie. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (geluid)",
+        "given": "speakers en muziek ",
+        "result": "presentatie",
+        "img": "bollywood.jpg",
+        "video": "",
+        "bso":  true
+ 
+    },
+
+    {
+        "id": "breakdance",
+        "title": "Breakdance",
+        "intro": "Ga moonwalkend door de gangpaden van de school!",
+        "about": "Er zal toegewerkt worden naar het beheersen van een bijvoorbeeld een powermove of spin en er wordt afgesloten met een gezamenlijke freestyle en een cooling-down.",
+        "goals": "lichamelijke expressie, presentatietechnieken, ritmegevoel, samenwerken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "presentatie",
+        "img": "breakdance.jpg",
+        "video": "",
+        "bso":  true
+ 
+    },
+
+    {
+        "id": "burlesque",
+        "title": "Burlesque",
+        "intro": "Expressieve bewegingen en gezichtsuitdrukkingen met dans!",
+        "about": "Wij zorgen voor rekwisieten zoals waaiers, hoedjes en handschoenen. Elegantie, gratie, goede moves en vooral veel fun! Be like Marilyn Monroe, Bettie Boop en Dita van Teese.",
+        "goals": "lichamelijke expressie, presentatietechnieken, ritmegevoel, samenwerken.",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "Microfoon, boxen, studio en audio apparatuur ",
+        "result": "presentatie",
+        "img": "burlesque.jpg",
+        "video": "",
+        "bso":  true
+ 
+    },
+
+    {
+        "id": "capoeira",
+        "title": "Capoeira",
+        "intro": "Dans, vechtkunst en acrobatiek in een prachtige kunstvorm!",
+        "about": "Capoeira is een diverse workshop omdat de muziek en bewegingen hand in hand gaan en elkaar versterken. Dit komt in samenhang aan de orde, wat deze workshop tot een perfect voorbeeld van een multidisciplinaire workshop maakt.",
+        "goals": "geschiedenis Braziliaanse cultuur, samenwerken, respect tonen, zelfdiscipline. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "audio apparatuur ",
+        "result": "presentatie (optioneel)",
+        "img": "capoeira.jpg",
+        "video": "",
+        "bso":  false
+ 
+    },
+
+    {
+        "id": "choreografie",
+        "title": "Choreografie",
+        "intro": "Creëer jouw eigen dans en voer het uit met jouw team!",
+        "about": "In groepjes werken de deelnemers aan hun eigen choreografie op muziek naar keuze. De deelnemers nemen zelf afwisselend de rol van danser en choreograaf op zich en worden hierin begeleidt door de docent. Ter afsluiting presenteren de groepjes het eindresultaat aan elkaar met een leerzame jury feedback ronde.",
+        "goals": "feedback geven, lichamelijke uiting, presentatietechnieken, dans technieken. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "presentatie",
+        "img": "choreografie.jpg",
+        "video": "",
+        "bso":  false
+ 
+    },
+
+    {
+        "id": "latinBailar",
+        "title": "Latin Dans",
+        "intro": "Leer Latin dansen om het te showen op feestjes op vakantie!",
+        "about": "Lekker lachen met elkaar en op een andere, bruisende manier met elkaar in beweging komen. Wij geven binnen de salsa workshop ook aandacht aan andere Latin dansen zoals de merengue of bachata voor een goede basis.",
+        "goals": "Motoriek, feedback geven, lichamelijke uiting, presentatietechnieken, dans technieken. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "presentatie",
+        "img": "latindans.jpg",
+        "video": "",
+        "bso":  false
+ 
+    },
+
+    {
+        "id": "morderneBallet",
+        "title": "Moderne Ballet",
+        "intro": "So you think you can dance? Laat het zien!",
+        "about": "Na oefeningen, rond ritme en motoriek, te hebben gedaan wordt er vervolgens toegewerkt naar een choreografie die de workshopleidster aanleert. Ten slotte verzinnen de deelnemers in groepjes een eigen choreografie en stijl die ze na elkaar showen.akken uitvoeren.",
+        "goals": "Motoriek, feedback geven, lichamelijke uiting, presentatietechnieken, dans technieken. ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "presentatie",
+        "img": "ballet.jpg",
+        "video": "",
+        "bso":  false
+ 
+    },
+
+    {
+        "id": "streetdance",
+        "title": "Streetdance",
+        "intro": "Leer stoere moves om jouw dans skills te verbeteren!",
+        "about": "De deelnemers gaan, na een nodige warming-up om blessures te voorkomen, onder deskundige begeleiding aan de slag. Stap voor stap wordt een routine en/of choreografie geleerd. Alle onderdelen van de betreffende dans komen aan bod.",
+        "goals": "geschiedenis straat dansstijlen, motoriek, choreografie, presentatietechnieken.  ",
+        "age": "6 t/m onbeperkt",
+        "amount": "tot 25 a 30",
+        "time": "1,5 uur",
+        "required": "gymlokaal, leeg lokaal of open ruimte (let op geluidsoverlast)",
+        "given": "microfoon, boxen, studio en audio apparatuur ",
+        "result": "eventuele presentatie",
+        "img": "streetdance.jpg",
+        "video": "",
+        "bso":  false
+ 
+    }
+]

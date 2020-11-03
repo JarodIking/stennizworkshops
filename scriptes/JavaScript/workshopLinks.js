@@ -31,83 +31,46 @@ $(window).ready(function (){
 
     $("#w0").click(function(){
         window.location.href='workshopPages/beeldkunst/'
-        // $("#gallery").attr('id' , 'galleryWorkshop');   
-        // $("#galleryWorkshop").empty();
-        // sessionStorage.setItem("workshop" , 0);
-        // $.getScript("scriptes/JavaScript/workshop.js");
     });
 
     $("#w1").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 1);
-        $.getScript("scriptes/JavaScript/workshop.js")
-
+        window.location.href='workshopPages/science/'
     });
 
     $("#w2").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 2);
-        $.getScript("scriptes/JavaScript/workshop.js")
-
+        window.location.href='workshopPages/dans/'
     });
 
     $("#w3").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 3);
-        $.getScript("scriptes/JavaScript/workshop.js")
-
+        window.location.href='workshopPages/muziek/'
     });
 
     $("#w4").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 4);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/health/'
     });
 
     $("#w5").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 5);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/taal/'
     });
 
     $("#w6").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 6);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/teamwork/'
     });
 
     $("#w7").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 7);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/theater/'
     });
 
     $("#w8").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 8);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/diy/'
     });
 
     $("#w9").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 9);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/reeks/'
     });
 
     $("#link1").click(function(){
-        $("#gallery").attr('id' , 'galleryWorkshop');   
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 10);
-        $.getScript("scriptes/JavaScript/workshop.js")
+        window.location.href='workshopPages/bso/'
     });
 
     // ----------------------------------------------------------------
