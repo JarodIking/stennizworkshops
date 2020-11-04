@@ -11,6 +11,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 30px;
+    padding-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,10 +35,11 @@
     position: relative;
     height: 90%;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 20px;
     float: left;
     overflow-y: scroll;
+    box-sizing: border-box;
 }
 
 #polariods{
@@ -210,11 +212,11 @@ video{
     z-index: 11;
     height: 50px;
     width: 50px;
-    left: 640px;
+    left: 650px;
     text-align: right;
     padding: 5px;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: bold;
     color: red;
 }
 
