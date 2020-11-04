@@ -66,7 +66,7 @@
         <div id='galleryWorkshop'>
             <div id='polariods'>
                 <div id='title'>
-                    Beeldkunst
+                    BSO
                 </div>
                 <div id='polariodView'>
 

@@ -66,7 +66,7 @@
         <div id='galleryWorkshop'>
             <div id='polariods'>
                 <div id='title'>
-                    Beeldkunst
+                    Teamwork
                 </div>
                 <div id='polariodView'>
 
