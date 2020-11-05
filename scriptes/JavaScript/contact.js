@@ -7,8 +7,8 @@ const home = document.getElementById("home");
 const overOns = document.getElementById("overOns");
 const contact = document.getElementById('contact');
 const link1 = document.getElementById('link1');
+const link2 = document.getElementById('link2');
 const logo = document.getElementById('navbarImg');
-const gallery = document.getElementById('galleryContact');
 
 
 
@@ -29,6 +29,15 @@ contact.onclick = ()=>{
     location.reload();
 
 }
+
+link1.onclick = ()=>{
+    window.location.href='../../workshoppages/bso';
+}
+
+link2.onclick = ()=>{
+    window.location.href='../../workshoppages/bso';
+}
+
 
 
 // const carouselSlide = document.querySelector(".slide");

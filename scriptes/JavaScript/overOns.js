@@ -5,11 +5,12 @@ window.addEventListener('load', ()=>{
     const title = document.getElementsByClassName("titleHidden");
     const text = document.getElementsByClassName("textHidden");
     const link1 = document.getElementById('link1');
-    const gallery = document.getElementById('galleryOverOns');
+    const link2 = document.getElementById('link2');
     const logo = document.getElementById('navbarImg');
+    const homeButton = document.getElementById('home');
+    const contact = document.getElementById('contact');
 
-    let titleStyle = getComputedStyle(title[1]).display;
-    let textStyle = getComputedStyle(text[0]).display;
+
 
     promotie.onclick = ()=>{
         window.location.href='https://www.youtube.com/watch?v=x9w-d1tvGgI';
@@ -18,6 +19,30 @@ window.addEventListener('load', ()=>{
     logo.onclick = ()=>{
         window.location.href="http://www.stennizworkshops.nl"
     }
+
+    homeButton.onclick = ()=>{
+        window.location.href="http://www.stennizworkshops.nl"
+    }
+
+    contact.onclick = ()=>{
+        window.location.href="../html/contact.html";
+    }
+
+    link1.onclick = ()=>{
+        window.location.href='../../workshoppages/bso';
+    }
+    
+    link2.onclick = ()=>{
+        window.location.href='../../workshoppages/bso';
+    }
+    
+
+
+
+
+
+    let titleStyle = getComputedStyle(title[1]).display;
+    let textStyle = getComputedStyle(text[0]).display;
 
     button.onclick = ()=>{
         
@@ -43,12 +68,6 @@ window.addEventListener('load', ()=>{
 
     }
 
-    link1.onclick = ()=>{
-        gallery.setAttribute('id', 'galleryWorkshop');
-        document.getElementById('galleryWorkshop').innerHTML='';
-        sessionStorage.setItem("workshop" , 12);
-        $.getScript("../JavaScript/workshop.js")
-    }
     
 
 
@@ -69,15 +88,6 @@ window.addEventListener('load', ()=>{
 
 
 
-    const homeButton = document.getElementById('home');
-    homeButton.onclick = ()=>{
-        window.location.href="http://www.stennizworkshops.nl"
-    }
-
-    const contact = document.getElementById('contact');
-    contact.onclick = ()=>{
-        window.location.href="../html/contact.html";
-    }
 
 
 
