@@ -1,9 +1,8 @@
 window.addEventListener('load', ()=>{
 
     const button = document.getElementById("privacy");
+    const button1 = document.getElementById("voorwaarden");
     const promotie = document.getElementById("promotie");
-    const title = document.getElementsByClassName("titleHidden");
-    const text = document.getElementsByClassName("textHidden");
     const link1 = document.getElementById('link1');
     const link2 = document.getElementById('link2');
     const logo = document.getElementById('navbarImg');
@@ -29,16 +28,18 @@ window.addEventListener('load', ()=>{
     }
 
     link1.onclick = ()=>{
-        window.location.href='../../workshoppages/bso';
+        window.location.href='../../workshopPages/bso';
     }
     
     link2.onclick = ()=>{
-        window.location.href='../../workshoppages/bso';
+        window.location.href='../../workshopPages/bso';
     }
     
 
+// privacy policy
 
-
+    const title = document.getElementsByClassName("titleHidden");
+    const text = document.getElementsByClassName("textHidden");
 
 
     let titleStyle = getComputedStyle(title[1]).display;
@@ -67,6 +68,44 @@ window.addEventListener('load', ()=>{
         }
 
     }
+
+
+
+
+// algemeene voorwaarden
+    const title1 = document.getElementsByClassName("titleHidden1");
+    const text1 = document.getElementsByClassName("textHidden1");
+
+
+    let titleStyle1 = getComputedStyle(title1[1]).display;
+    let textStyle1 = getComputedStyle(text1[0]).display;
+
+    button1.onclick = ()=>{
+        
+        if(titleStyle1 === 'none' && textStyle1 === 'none'){
+            for(i = 0; i < text1.length;i++){
+                title1[i].style.display = 'block';
+                text1[i].style.display = 'block';
+                console.log(text1[i]);
+            }
+
+            titleStyle1 = getComputedStyle(title1[1]).display;
+            textStyle1 = getComputedStyle(text1[0]).display;
+        
+        } else {
+            for(a = 0; a < text1.length;a++){
+                title1[a].style.display = 'none';
+                text1[a].style.display = 'none';
+                console.log(text1[i]);
+            }
+
+            titleStyle1 = getComputedStyle(title1[1]).display;
+            textStyle1 = getComputedStyle(text1[0]).display;
+
+        }
+
+    }
+
 
     
 

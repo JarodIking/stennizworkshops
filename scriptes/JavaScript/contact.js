@@ -31,11 +31,11 @@ contact.onclick = ()=>{
 }
 
 link1.onclick = ()=>{
-    window.location.href='../../workshoppages/bso';
+    window.location.href='../../workshopPages/bso';
 }
 
 link2.onclick = ()=>{
-    window.location.href='../../workshoppages/bso';
+    window.location.href='../../workshopPages/bso';
 }
 
 
