@@ -32,7 +32,6 @@
                 <div id='popupImg'>
 
                 </div>
-                <button id='confirm'>OK</button>
             </div>
         </div>
 <!-- navbar -->

@@ -36,21 +36,11 @@
 #popupImg{
     position: relative;
     width: 100%;
+    top: 80px;
     height: 300px;
     background-image: url(../../media/fotos/gallery/flipPhone.png);
     background-size: cover;
 
-}
-
-#confirm{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20%;
-    background: none;
-    width: 70px;
-    border-radius: 20px;
 }
 
 div#center { display: none; }
