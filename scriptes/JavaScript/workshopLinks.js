@@ -1,5 +1,13 @@
 $(window).ready(function (){
 
+
+    $('#confirm').click(()=>{
+        $('#center').css({display: 'none'})
+    })
+
+
+
+
 // navbarlinks
     $("#home").click(function(){
         location.reload();

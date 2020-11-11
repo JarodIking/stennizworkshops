@@ -26,8 +26,17 @@
 
     </head>
     <body>
+        
+        <div id=center>
+            <div id='popup'>
+                <div id='popupImg'>
+
+                </div>
+                <button id='confirm'>OK</button>
+            </div>
+        </div>
 <!-- navbar -->
-    <div id='navbar'>
+    <div id='navbar' style='font-size:8vw'>
         <!-- left part -->
         <div class='navbarLeftRight'>
             <div id='bso'>

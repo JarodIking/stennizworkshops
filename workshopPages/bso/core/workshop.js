@@ -113,6 +113,7 @@ $(window).ready(function(){
                 $("#location").html(data[0].location);
                 $("#result").html(data[0].result);
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 200 }, 500);
 
                 if(data[0].title == 'Film & Muziek Avontuur'){
                     $("body").append("<div id='popUp'></div")
@@ -144,6 +145,7 @@ $(window).ready(function(){
                 $("#given").html(data[1].given);
                 $("#result").html(data[1].result);
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 200 }, 500);
 
                 if(data[1].title == 'Game Design Avontuur'){
                     $("body").append("<div id='popUp'></div")
@@ -176,6 +178,7 @@ $(window).ready(function(){
                 $("#result").html(data[2].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -194,6 +197,7 @@ $(window).ready(function(){
                 $("#result").html(data[3].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -212,6 +216,7 @@ $(window).ready(function(){
                 $("#result").html(data[4].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -230,6 +235,7 @@ $(window).ready(function(){
                 $("#result").html(data[5].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -248,6 +254,7 @@ $(window).ready(function(){
                 $("#result").html(data[6].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -266,6 +273,7 @@ $(window).ready(function(){
                 $("#result").html(data[7].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -284,6 +292,7 @@ $(window).ready(function(){
                 $("#result").html(data[8].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -302,6 +311,7 @@ $(window).ready(function(){
                 $("#result").html(data[9].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -320,6 +330,7 @@ $(window).ready(function(){
                 $("#result").html(data[10].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -338,6 +349,7 @@ $(window).ready(function(){
                 $("#result").html(data[11].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -356,6 +368,7 @@ $(window).ready(function(){
                 $("#result").html(data[12].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -374,6 +387,7 @@ $(window).ready(function(){
                 $("#result").html(data[13].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -392,6 +406,7 @@ $(window).ready(function(){
                 $("#result").html(data[14].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -410,6 +425,7 @@ $(window).ready(function(){
                 $("#result").html(data[15].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -428,6 +444,7 @@ $(window).ready(function(){
                 $("#result").html(data[16].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -446,6 +463,7 @@ $(window).ready(function(){
                 $("#result").html(data[17].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -464,6 +482,7 @@ $(window).ready(function(){
                 $("#result").html(data[18].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -482,6 +501,7 @@ $(window).ready(function(){
                 $("#result").html(data[19].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -500,6 +520,7 @@ $(window).ready(function(){
                 $("#result").html(data[20].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -518,6 +539,7 @@ $(window).ready(function(){
                 $("#result").html(data[21].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -536,6 +558,7 @@ $(window).ready(function(){
                 $("#result").html(data[22].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -554,6 +577,7 @@ $(window).ready(function(){
                 $("#result").html(data[23].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -572,6 +596,7 @@ $(window).ready(function(){
                 $("#result").html(data[24].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -590,6 +615,7 @@ $(window).ready(function(){
                 $("#result").html(data[25].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
@@ -608,6 +634,7 @@ $(window).ready(function(){
                 $("#result").html(data[26].result);
                 reveal();
                 $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
 
             
 
