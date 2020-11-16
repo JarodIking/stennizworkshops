@@ -108,3 +108,59 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'beatmaking'){
+                echo "<script type='text/javascript'> ws('beatmaking'); </script>";  
+            }
+
+            if($ws == 'kerstmix'){
+                echo "<script type='text/javascript'> ws('kerstmix'); </script>";  
+            }
+
+            if($ws == 'rap'){
+                echo "<script type='text/javascript'> ws('rap'); </script>";  
+            }
+
+            if($ws == 'remix'){
+                echo "<script type='text/javascript'> ws('remix'); </script>";  
+            }
+
+            if($ws == 'scratchen'){
+                echo "<script type='text/javascript'> ws('scratchen'); </script>";  
+            }
+
+            if($ws == 'slagwerk'){
+                echo "<script type='text/javascript'> ws('slagwerk'); </script>";  
+            }
+
+            if($ws == 'songwriting'){
+                echo "<script type='text/javascript'> ws('songwriting'); </script>";  
+            }
+
+            if($ws == 'sounddesign'){
+                echo "<script type='text/javascript'> ws('sounddesign'); </script>";  
+            }
+
+            if($ws == 'spokenword'){
+                echo "<script type='text/javascript'> ws('spokenword'); </script>";  
+            }
+
+            if($ws == 'streetbeats'){
+                echo "<script type='text/javascript'> ws('streetbeats'); </script>";  
+            }
+
+            if($ws == 'eigensong'){
+                echo "<script type='text/javascript'> ws('eigensong'); </script>";  
+            }
+
+            if($ws == 'djtechniekmixen'){
+                echo "<script type='text/javascript'> ws('djtechniekmixen'); </script>";  
+            }
+        }   
+        sw($ws);
+    }
+?>

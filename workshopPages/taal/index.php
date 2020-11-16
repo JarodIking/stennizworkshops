@@ -108,3 +108,55 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'rap'){
+                echo "<script type='text/javascript'> ws('rap'); </script>";  
+            }
+
+            if($ws == 'spokenword'){
+                echo "<script type='text/javascript'> ws('spokenword'); </script>";  
+            }
+
+            if($ws == 'bloggen'){
+                echo "<script type='text/javascript'> ws('bloggen'); </script>";  
+            }
+
+            if($ws == 'verhaalvertellen'){
+                echo "<script type='text/javascript'> ws('verhaalvertellen'); </script>";  
+            }
+
+            if($ws == 'vloggen'){
+                echo "<script type='text/javascript'> ws('vloggen'); </script>";  
+            }
+
+            if($ws == 'poezie'){
+                echo "<script type='text/javascript'> ws('poezie'); </script>";  
+            }
+
+            if($ws == 'cabarapmethumorrappen'){
+                echo "<script type='text/javascript'> ws('cabarapmethumorrappen'); </script>";  
+            }
+
+            if($ws == 'poetryslam'){
+                echo "<script type='text/javascript'> ws('poetryslam'); </script>";  
+            }
+
+            if($ws == 'filmscript'){
+                echo "<script type='text/javascript'> ws('filmscript'); </script>";  
+            }
+
+            if($ws == 'rapbattle'){
+                echo "<script type='text/javascript'> ws('rapbattle'); </script>";  
+            }
+
+            if($ws == 'songwriting'){
+                echo "<script type='text/javascript'> ws('songwriting'); </script>";  
+            }
+        }   
+        sw($ws);
+    }
+?>

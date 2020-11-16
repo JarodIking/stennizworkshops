@@ -108,3 +108,55 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'africanshake'){
+                echo "<script type='text/javascript'> ws('africanshake'); </script>";  
+            }
+
+            if($ws == 'battledance'){
+                echo "<script type='text/javascript'> ws('battledance'); </script>";  
+            }
+
+            if($ws == 'bodybeat'){
+                echo "<script type='text/javascript'> ws('bodybeat'); </script>";  
+            }
+
+            if($ws == 'bollywood'){
+                echo "<script type='text/javascript'> ws('bollywood'); </script>";  
+            }
+
+            if($ws == 'breakdance'){
+                echo "<script type='text/javascript'> ws('breakdance'); </script>";  
+            }
+
+            if($ws == 'burlesque'){
+                echo "<script type='text/javascript'> ws('burlesque'); </script>";  
+            }
+
+            if($ws == 'capoeira'){
+                echo "<script type='text/javascript'> ws('capoeira'); </script>";  
+            }
+
+            if($ws == 'choreografie'){
+                echo "<script type='text/javascript'> ws('choreografie'); </script>";  
+            }
+
+            if($ws == 'latindans'){
+                echo "<script type='text/javascript'> ws('latindans'); </script>";  
+            }
+
+            if($ws == 'moderneballet'){
+                echo "<script type='text/javascript'> ws('moderneballet'); </script>";  
+            }
+
+            if($ws == 'streetdance'){
+                echo "<script type='text/javascript'> ws('streetdance'); </script>";  
+            }
+       }   
+        sw($ws);
+    }
+?>

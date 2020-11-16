@@ -84,6 +84,22 @@ a:visited{
     font-size: 20px;
     float: left;
 }
+
+.imageLinks{
+    position: relative;
+    float: left;
+}
+
+.logos{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#instaLogo{
+    margin-left: 20px;
+}
 /* ------------------------------------------------------------------------------- */
 
 /* mail form --------------------------------------------------------------------------------- */

@@ -108,3 +108,75 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'filmmuziekavontuur'){
+                echo "<script type='text/javascript'> ws('filmmuziekavontuur'); </script>";  
+            }
+
+            if($ws == 'gamedesignavontuur'){
+                echo "<script type='text/javascript'> ws('gamedesignavontuur'); </script>";  
+            }
+
+            if($ws == '3danimatie'){
+                echo "<script type='text/javascript'> ws('3danimatie'); </script>";  
+            }
+
+            if($ws == 'gamedesign'){
+                echo "<script type='text/javascript'> ws('gamedesign'); </script>";  
+            }
+
+            if($ws == 'greenscreen'){
+                echo "<script type='text/javascript'> ws('greenscreen'); </script>";  
+            }
+
+            if($ws == 'legomotion'){
+                echo "<script type='text/javascript'> ws('legomotion'); </script>";  
+            }
+
+            if($ws == 'erpiratetreasure'){
+                echo "<script type='text/javascript'> ws('erpiratetreasure'); </script>";  
+            }
+
+            if($ws == 'roborace'){
+                echo "<script type='text/javascript'> ws('roborace'); </script>";  
+            }
+
+            if($ws == 'remotecontrol'){
+                echo "<script type='text/javascript'> ws('remotecontrol'); </script>";  
+            }
+
+            if($ws == 'beatmaking'){
+                echo "<script type='text/javascript'> ws('beatmaking'); </script>";  
+            }
+
+            if($ws == 'rap'){
+                echo "<script type='text/javascript'> ws('rap'); </script>";  
+            }
+
+            if($ws == 'sounddesign'){
+                echo "<script type='text/javascript'> ws('sounddesign'); </script>";  
+            }
+
+            if($ws == 'goochelshow'){
+                echo "<script type='text/javascript'> ws('goochelshow'); </script>";  
+            }
+
+            if($ws == 'djtechniekmixen'){
+                echo "<script type='text/javascript'> ws('djtechniekmixen'); </script>";  
+            }
+
+            if($ws == 'erontsnapdekermis'){
+                echo "<script type='text/javascript'> ws('erontsnapdekermis'); </script>";  
+            }
+
+            if($ws == 'postdrukkerij'){
+                echo "<script type='text/javascript'> ws('postdrukkerij'); </script>";  
+            }
+       }   
+        sw($ws);
+    }
+?>

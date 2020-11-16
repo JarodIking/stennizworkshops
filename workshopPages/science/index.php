@@ -108,3 +108,45 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'droneflight'){
+                echo "<script type='text/javascript'> ws('droneflight'); </script>";  
+            }
+
+            if($ws == 'escapethesciencelab'){
+                echo "<script type='text/javascript'> ws('escapethesciencelab'); </script>";  
+            }
+
+            if($ws == 'gametech'){
+                echo "<script type='text/javascript'> ws('gametech'); </script>";  
+            }
+
+            if($ws == 'remotecontrol'){
+                echo "<script type='text/javascript'> ws('remotecontrol'); </script>";  
+            }
+
+            if($ws == 'roborace'){
+                echo "<script type='text/javascript'> ws('roborace'); </script>";  
+            }
+
+            if($ws == 'kettingreactie'){
+                echo "<script type='text/javascript'> ws('kettingreactie'); </script>";  
+            }
+
+            if($ws == 'followtherobot'){
+                echo "<script type='text/javascript'> ws('followtherobot'); </script>";  
+            }
+
+            if($ws == 'zoutwateralsbrandstof'){
+                echo "<script type='text/javascript'> ws('zoutwateralsbrandstof'); </script>";  
+            }
+
+
+        }   
+        sw($ws);
+    }
+?>

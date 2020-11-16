@@ -108,3 +108,53 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'escaperoompiratetreasure'){
+                echo "<script type='text/javascript'> ws('escaperoompiratetreasure'); </script>";  
+            }
+
+            if($ws == 'cabaret'){
+                echo "<script type='text/javascript'> ws('cabaret'); </script>";  
+            }
+
+            if($ws == 'circus'){
+                echo "<script type='text/javascript'> ws('circus'); </script>";  
+            }
+
+            if($ws == 'theatersport'){
+                echo "<script type='text/javascript'> ws('theatersport'); </script>";  
+            }
+
+            if($ws == 'filmacteren'){
+                echo "<script type='text/javascript'> ws('filmacteren'); </script>";  
+            }
+
+            if($ws == 'stageacteren'){
+                echo "<script type='text/javascript'> ws('stageacteren'); </script>";  
+            }
+
+            if($ws == 'goochelen'){
+                echo "<script type='text/javascript'> ws('goochelen'); </script>";  
+            }
+
+            if($ws == 'theatersoap'){
+                echo "<script type='text/javascript'> ws('theatersoap'); </script>";  
+            }
+
+            if($ws == 'standupcomedy'){
+                echo "<script type='text/javascript'> ws('standupcomedy'); </script>";  
+            }
+
+            if($ws == 'greenscreen'){
+                echo "<script type='text/javascript'> ws('greenscreen'); </script>";  
+            }
+
+
+        }   
+        sw($ws);
+    }
+?>

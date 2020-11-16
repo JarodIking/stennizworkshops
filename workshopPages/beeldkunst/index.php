@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <html>
     <head>
         <link rel="stylesheet" href="core/navbar.css">
@@ -108,3 +122,83 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == '3danimatie'){
+                echo "<script type='text/javascript'> ws('3danimatie'); </script>";  
+            }
+
+            if($ws == 'cartoontekenen'){
+                echo "<script type='text/javascript'> ws('cartoontekenen'); </script>";  
+            }
+
+            if($ws == 'gamedesign'){
+                echo "<script type='text/javascript'> ws('gamedesign'); </script>";  
+            }
+
+            if($ws == 'gamedesignclient'){
+                echo "<script type='text/javascript'> ws('gamedesignclient'); </script>";  
+            }
+
+            if($ws == 'graffiti'){
+                echo "<script type='text/javascript'> ws('graffiti'); </script>";  
+            }
+
+            if($ws == 'greenscreen'){
+                echo "<script type='text/javascript'> ws('greenscreen'); </script>";  
+            }
+
+            if($ws == 'grime'){
+                echo "<script type='text/javascript'> ws('grime'); </script>";  
+            }
+
+            if($ws == 'grimespecialfx'){
+                echo "<script type='text/javascript'> ws('grimespecialfx'); </script>";  
+            }
+
+            if($ws == 'grimetattoo'){
+                echo "<script type='text/javascript'> ws('grimetattoo'); </script>";  
+            }
+
+            if($ws == 'handletteren'){
+                echo "<script type='text/javascript'> ws('handletteren'); </script>";  
+            }
+
+            if($ws == 'illusteren'){
+                echo "<script type='text/javascript'> ws('illusteren'); </script>";  
+            }
+
+            if($ws == 'legomotion'){
+                echo "<script type='text/javascript'> ws('legomotion'); </script>";  
+            }
+
+            if($ws == 'lightgraffiti'){
+                echo "<script type='text/javascript'> ws('lightgraffiti'); </script>";  
+            }
+
+            if($ws == 'virtualreality'){
+                echo "<script type='text/javascript'> ws('virtualreality'); </script>";  
+            }
+
+            if($ws == 'vloggenxl'){
+                echo "<script type='text/javascript'> ws('vloggenxl'); </script>";  
+            }
+
+            if($ws == 'zeefdrukken'){
+                echo "<script type='text/javascript'> ws('zeefdrukken'); </script>";  
+            }
+
+            if($ws == 'erontsnapdekermis'){
+                echo "<script type='text/javascript'> ws('erontsnapdekermis'); </script>";  
+            }
+
+            if($ws == 'postdrukkerij'){
+                echo "<script type='text/javascript'> ws('postdrukkerij'); </script>";  
+            }
+        }   
+        sw($ws);
+    }
+?>

@@ -108,3 +108,16 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'diy'){
+                echo "<script type='text/javascript'> ws('diy'); </script>";  
+            }
+
+       }   
+        sw($ws);
+    }
+?>

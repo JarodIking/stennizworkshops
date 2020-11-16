@@ -108,3 +108,32 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'filmmuziekavontuur'){
+                echo "<script type='text/javascript'> ws('filmmuziekavontuur'); </script>";  
+            }
+
+            if($ws == 'gamedesignavontuur'){
+                echo "<script type='text/javascript'> ws('gamedesignavontuur'); </script>";  
+            }
+
+            if($ws == 'goudendriehoek'){
+                echo "<script type='text/javascript'> ws('goudendriehoek'); </script>";  
+            }
+
+            if($ws == 'musicalopmaat'){
+                echo "<script type='text/javascript'> ws('musicalopmaat'); </script>";  
+            }
+
+            if($ws == 'rapverbinding'){
+                echo "<script type='text/javascript'> ws('rapverbinding'); </script>";  
+            }
+
+        }   
+        sw($ws);
+    }
+?>

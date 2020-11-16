@@ -108,3 +108,68 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'erpiratetreasure'){
+                echo "<script type='text/javascript'> ws('erpiratetreasure'); </script>";  
+            }
+
+            if($ws == 'beatmaking'){
+                echo "<script type='text/javascript'> ws('beatmaking'); </script>";  
+            }
+
+            if($ws == 'rap'){
+                echo "<script type='text/javascript'> ws('rap'); </script>";  
+            }
+
+            if($ws == 'slagwerk'){
+                echo "<script type='text/javascript'> ws('slagwerk'); </script>";  
+            }
+
+            if($ws == 'streetbeats'){
+                echo "<script type='text/javascript'> ws('streetbeats'); </script>";  
+            }
+
+            if($ws == 'eigensong'){
+                echo "<script type='text/javascript'> ws('eigensong'); </script>";  
+            }
+
+            if($ws == 'escapedeclassroom'){
+                echo "<script type='text/javascript'> ws('escapedeclassroom'); </script>";  
+            }
+
+            if($ws == 'creativebedrijfsgroet'){
+                echo "<script type='text/javascript'> ws('creativebedrijfsgroet'); </script>";  
+            }
+
+            if($ws == 'crazycommercial'){
+                echo "<script type='text/javascript'> ws('crazycommercial'); </script>";  
+            }
+
+            if($ws == 'beatthebox'){
+                echo "<script type='text/javascript'> ws('beatthebox'); </script>";  
+            }
+
+            if($ws == 'stopmotion'){
+                echo "<script type='text/javascript'> ws('stopmotion'); </script>";  
+            }
+
+            if($ws == '24filmproject'){
+                echo "<script type='text/javascript'> ws('24filmproject'); </script>";  
+            }
+
+            if($ws == 'acrobatiek'){
+                echo "<script type='text/javascript'> ws('acrobatiek'); </script>";  
+            }
+
+            if($ws == 'kettingreactie'){
+                echo "<script type='text/javascript'> ws('kettingreactie'); </script>";  
+            }
+
+        }   
+        sw($ws);
+    }
+?>

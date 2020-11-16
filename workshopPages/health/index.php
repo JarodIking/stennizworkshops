@@ -108,3 +108,47 @@
 
     </body>
 </html>
+
+<?php 
+    if($_GET){
+        $ws = $_GET['ws'];
+        function sw($ws){
+            if($ws == 'bodybeat'){
+                echo "<script type='text/javascript'> ws('bodybeat'); </script>";  
+            }
+
+            if($ws == 'capoeira'){
+                echo "<script type='text/javascript'> ws('capoeira'); </script>";  
+            }
+
+            if($ws == 'freerunning'){
+                echo "<script type='text/javascript'> ws('freerunning'); </script>";  
+            }
+
+            if($ws == 'longboarding'){
+                echo "<script type='text/javascript'> ws('longboarding'); </script>";  
+            }
+
+            if($ws == 'stuntman'){
+                echo "<script type='text/javascript'> ws('stuntman'); </script>";  
+            }
+
+            if($ws == 'yoga'){
+                echo "<script type='text/javascript'> ws('yoga'); </script>";  
+            }
+
+            if($ws == 'acrobatiek'){
+                echo "<script type='text/javascript'> ws('acrobatiek'); </script>";  
+            }
+
+            if($ws == 'taichi'){
+                echo "<script type='text/javascript'> ws('taichi'); </script>";  
+            }
+
+
+
+
+       }   
+        sw($ws);
+    }
+?>

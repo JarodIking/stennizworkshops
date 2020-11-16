@@ -1,22 +1,162 @@
+const textInsert = document.getElementsByClassName('textInsert');
+reveal = ()=>{
+    for (let i = 0; i < textInsert.length; i++) {
+        textInsert[i].style.opacity = 1;
+    }
+}
+
+function ws(ws1){
+    $.ajax({
+        type: 'GET',
+        dataType: 'json',
+        url: 'core/reeks.json',
+        success: function(data){
+            if(ws1 == 'filmmuziekavontuur'){
+                function workshop0(){
+                    $("#workshopTitle").html(data[0].title);
+                    $("#intro").html(data[0].intro);
+                    $("#about").html(data[0].about);
+                    $("#goals").html(data[0].goals);
+                    $("#age").html(data[0].age);
+                    $("#amount").html(data[0].amount);
+                    $("#time").html(data[0].time);
+                    $("#required").html(data[0].required);
+                    $("#given").html(data[0].given);
+                    $("#location").html(data[0].location);
+                    $("#result").html(data[0].result);
+                    $('#video').css({filter: "grayscale(0.9)"});
+                    $("html, body").animate({ scrollTop: 200 }, 500);
+    
+                    if(data[0].title == 'Film & Muziek Avontuur'){
+                        $("body").append("<div id='popUp'></div")
+    
+                        $("#popUp").css("background-image","url(media/fotos/pdf-1.png)");
+                        
+                        $("#popUp").append("<div id='exitPopUp'>X</div")    
+                    } else {
+                        reveal();
+                    }
+    
+                    $("#exitPopUp").on('click',()=>{
+                        $('#popUp').remove();
+                    })
+        
+                }
+                workshop0();
+            }
+
+            if(ws1 == 'gamedesignavontuur'){
+                function workshop1(){
+                    $("#workshopTitle").html(data[1].title);
+                    $("#intro").html(data[1].intro);
+                    $("#about").html(data[1].about);
+                    $("#goals").html(data[1].goals);
+                    $("#age").html(data[1].age);
+                    $("#amount").html(data[1].amount);
+                    $("#time").html(data[1].time);
+                    $("#required").html(data[1].required);
+                    $("#given").html(data[1].given);
+                    $("#result").html(data[1].result);
+                    $('#video').css({filter: "grayscale(0.9)"});
+                    $("html, body").animate({ scrollTop: 200 }, 500);
+    
+                    if(data[1].title == 'Game Design Avontuur'){
+                        $("body").append("<div id='popUp'></div")
+                        
+                        $("#popUp").css("background-image","url(media/fotos/game.jpg)");
+                                        
+                        $("#popUp").append("<div id='exitPopUp'>X</div")    
+                    } else {
+                        reveal();
+                    }
+    
+                    $("#exitPopUp").on('click',()=>{
+                        $('#popUp').remove();
+                    })
+                }
+                workshop1();
+            }
+
+            if(ws1 == 'goudendriehoek'){
+                function workshop2(){
+                    $("#workshopTitle").html(data[2].title);
+                    $("#intro").html(data[2].intro);
+                    $("#about").html(data[2].about);
+                    $("#goals").html(data[2].goals);
+                    $("#age").html(data[2].age);
+                    $("#amount").html(data[2].amount);
+                    $("#time").html(data[2].time);
+                    $("#required").html(data[2].required);
+                    $("#given").html(data[2].given);
+                    $("#location").html(data[2].location);
+                    $("#result").html(data[2].result);
+                    reveal();
+                    $('#video').css({filter: "grayscale(0.9)"});
+                    $("html, body").animate({ scrollTop: 700 }, 500);
+    
+                }
+                workshop2();
+            }
+
+            if(ws1 == 'musicalopmaat'){
+                function workshop3(){
+                    $("#workshopTitle").html(data[3].title);
+                    $("#intro").html(data[3].intro);
+                    $("#about").html(data[3].about);
+                    $("#goals").html(data[3].goals);
+                    $("#age").html(data[3].age);
+                    $("#amount").html(data[3].amount);
+                    $("#time").html(data[3].time);
+                    $("#required").html(data[3].required);
+                    $("#given").html(data[3].given);
+                    $("#location").html(data[3].location);
+                    $("#result").html(data[3].result);
+                    reveal();
+                    $('#video').css({filter: "grayscale(0.9)"});
+                    $("html, body").animate({ scrollTop: 700 }, 500);
+    
+                }
+                workshop3();
+            }
+
+            if(ws1 == 'rapverbinding'){
+                function workshop4(){
+                    $("#workshopTitle").html(data[4].title);
+                    $("#intro").html(data[4].intro);
+                    $("#about").html(data[4].about);
+                    $("#goals").html(data[4].goals);
+                    $("#age").html(data[4].age);
+                    $("#amount").html(data[4].amount);
+                    $("#time").html(data[4].time);
+                    $("#required").html(data[4].required);
+                    $("#given").html(data[4].given);
+                    $("#location").html(data[4].location);
+                    $("#result").html(data[4].result);
+                    reveal();
+                    $('#video').css({filter: "grayscale(0.9)"});
+                    $("html, body").animate({ scrollTop: 700 }, 500);
+    
+                }
+                workshop4();
+            }
+
+     
+        }
+
+    })
+}
+
+
+
+
+
+
+
 $(window).ready(function(){
     var getJson;
     var pic;
     let title;
     let location = 0;
-
-
-
-      const textInsert = document.getElementsByClassName('textInsert');
-    //   const vid = document.getElementById('video');
-
-      reveal = ()=>{
-        for (let i = 0; i < textInsert.length; i++) {
-            textInsert[i].style.opacity = 1;
-        }
-        // vid.style.filter = 'greyscale(0.8)';
-
-
-      }
 
 
     // navbar links----------------------------------------------------------------------------------------------
@@ -112,8 +252,21 @@ $(window).ready(function(){
                 $("#location").html(data[0].location);
                 $("#result").html(data[0].result);
                 $('#video').css({filter: "grayscale(0.9)"});
-                $("html, body").animate({ scrollTop: 700 }, 500);
-                reveal();
+                $("html, body").animate({ scrollTop: 200 }, 500);
+
+                if(data[0].title == 'Film & Muziek Avontuur'){
+                    $("body").append("<div id='popUp'></div")
+
+                    $("#popUp").css("background-image","url(media/fotos/pdf-1.png)");
+                    
+                    $("#popUp").append("<div id='exitPopUp'>X</div")    
+                } else {
+                    reveal();
+                }
+
+                $("#exitPopUp").on('click',()=>{
+                    $('#popUp').remove();
+                })
 
             });    
             
@@ -131,9 +284,21 @@ $(window).ready(function(){
                 $("#given").html(data[1].given);
                 $("#result").html(data[1].result);
                 $('#video').css({filter: "grayscale(0.9)"});
-                $("html, body").animate({ scrollTop: 700 }, 500);
-                reveal();
-                
+                $("html, body").animate({ scrollTop: 200 }, 500);
+
+                if(data[1].title == 'Game Design Avontuur'){
+                    $("body").append("<div id='popUp'></div")
+                    
+                    $("#popUp").css("background-image","url(media/fotos/game.jpg)");
+                                    
+                    $("#popUp").append("<div id='exitPopUp'>X</div")    
+                } else {
+                    reveal();
+                }
+
+                $("#exitPopUp").on('click',()=>{
+                    $('#popUp').remove();
+                })
 
             });
 
