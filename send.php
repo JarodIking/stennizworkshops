@@ -62,9 +62,10 @@
 
                         $mail->send();
                         header('location: index.php');
+
+                        echo "<script>alert('email verstuurt')</script>";
                 } catch (Exception $e) {
-                    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-                    header('location: index.php');
+                    echo "Message could not be sent.";
                 }
             }
         

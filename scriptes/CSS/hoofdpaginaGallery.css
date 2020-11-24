@@ -43,6 +43,15 @@
 
 }
 
+.popupBt{
+    position: relative;
+    top: 15%;
+    left: 40%;
+    width: 70px;
+    border-radius: 15px;
+    background: none;
+}
+
 div#center { display: none; }
 
 /* use a media query to filter small devices */

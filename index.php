@@ -27,11 +27,10 @@
     </head>
     <body>
         
-        <div id=center>
+        <div id='center'>
             <div id='popup'>
-                <div id='popupImg'>
-
-                </div>
+                <div id='popupImg'></div>
+                <button id='confirm' class='popupBt'>ok</button>
             </div>
         </div>
 <!-- navbar -->

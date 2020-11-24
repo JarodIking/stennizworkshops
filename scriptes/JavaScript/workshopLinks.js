@@ -22,10 +22,6 @@ $(window).ready(function (){
     })
 
     $('#toTeamwork').click(()=>{
-        $('#gallery').attr('id' , 'galleryWorkshop');
-        $("#galleryWorkshop").empty();
-        sessionStorage.setItem("workshop" , 6);
-        $.getScript("scriptes/JavaScript/workshop.js")
     })
 
     $("#navbarImg").click(()=>{

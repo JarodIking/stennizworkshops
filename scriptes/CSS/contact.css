@@ -99,6 +99,7 @@ a:visited{
 
 #instaLogo{
     margin-left: 20px;
+    cursor: pointer;
 }
 /* ------------------------------------------------------------------------------- */
 
@@ -258,6 +259,52 @@ label{
 
 }
 /* --------------------------------------------------------------------------------- */
+
+/* factures --------------------------------------------------------------------------------- */
+
+.vacatures{
+    position: relative;
+    float: right;
+    width: 330px;
+    height: auto;
+    margin-bottom: 15%;
+}
+
+.vacaturesTitle{
+    position: relative;
+    font-size: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.vacaturesText{
+    position: relative;
+    float: left;
+    font-size: 20px;
+}
+
+.vacaturesBt{
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: rgb(255, 220, 94) 1px solid;
+    background-color: rgb(46, 47, 97);
+    color:rgb(255, 220, 94) ;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
 
 /* calculator ----------------------------------------------------------------------- */
 #calculatorCon{
