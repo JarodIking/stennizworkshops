@@ -39,7 +39,7 @@
 
                 try {
                     //Server settings
-                    $mail->SMTPDebug = 2;                      // Enable verbose debug output
+                    $mail->SMTPDebug = 0;                      // Enable verbose debug output
                     $mail->isSMTP();                                            // Send using SMTP
                     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
                     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -63,7 +63,27 @@
 
                         $mail->send();
                         header('location: index.php');
-                        echo "<script>alert('email verstuurt')</script>";
+
+                        if($mail->send()){
+                            $autoRespond = new PHPMailer();
+
+                            $autoRespond->IsSMTP();
+                            $autoRespond->SMTPDebug  = 0;
+                            $autoRespond->SMTPAuth   = TRUE;
+                            $autoRespond->Port       = 587;
+                            $autoRespond->Username   = "workshopinschrijving@gmail.com";
+                            $autoRespond->Password   = "!wdD233Vef3#45ghWCcw";
+                            $autoRespond->Host       = "smtp.gmail.com";
+
+                            $autoRespond->setFrom('workshopinschrijving@gmail.com', 'Dennis');
+                            $autoRespond->addAddress($email);
+                            $autoRespond->isHTML(true);                                  // Set email format to HTML
+                            $autoRespond->Subject = "Ontvangstbericht stennizworkshops"; 
+                            $autoRespond->Body = "Uw bericht is verzonden en wij nemen binnen 24 uur contact op. Mocht u niets vernemen dan gaat er iets mis en email of bel ons dan aub rechtstreeks." . "<br><br>Team StenniZ<br>0624715745<br>stennizmusic@gmail.com<br>www.stennizworkshops.nl<br>www.stenniz-games.com";
+
+                            $autoRespond->Send(); 
+                        }
+
 
                 } catch (Exception $e) {
                     echo "Message could not be sent.";

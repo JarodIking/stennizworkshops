@@ -134,6 +134,14 @@ a:visited{
 
 }
 
+#mailSubject{
+    position: relative;
+    float: left;
+    height: 75px;
+    width: 100%;
+}
+
+
 #mailMessage{
     position: relative;
     float: left;

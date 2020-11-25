@@ -24,9 +24,9 @@ img{
     position: relative;
     display: flex;
     height: 100%;
-    width: 500px;
+    width: 600px;
     float: left;
-    /* flex: 30%; */
+    flex: 25%;
     box-sizing: border-box;
 }
 
@@ -151,7 +151,7 @@ label{
     height: auto;
     width: 600px;
     float: left;
-    /* flex: 25%; */
+    flex: 25%;
     box-sizing: border-box;
 }
 
@@ -161,6 +161,10 @@ label{
     width: 47%;
     height: auto;
     margin-left: 10px;
+}
+
+.coloumn>ul>li{
+    margin-bottom: 10px;
 }
 
 .vacatuur{
@@ -180,11 +184,31 @@ label{
 
 }
 
+.vacatuurTitle1{
+    position: relative;
+    margin-left: 20px;
+    font-size: 30px;
+    color:rgb(255, 220, 94);
+    font-weight: 600;
+}
+
+
 .vacatuurText{
     position: relative;
-    color:rgb(255, 220, 94) ;
+    color:rgb(255, 220, 94);
     text-align: center;
 }
+
+.vacatuurText1{
+    position: relative;
+    color:rgb(255, 220, 94);
+    font-size: 25px;
+    cursor: pointer;
+}
+.vacatuurText1:hover{
+    text-decoration: underline;
+}
+
 
 button{
     position: relative;

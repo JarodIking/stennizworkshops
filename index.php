@@ -1,5 +1,16 @@
 <?php 
 
+// $success = false;
+
+// if($_GET){
+//     $success = $_GET['success'];
+// }
+
+// if($success == true){
+//     echo "<script>alert('Email verstuurt')</script>";
+//     $success = false;
+// }
+
 ?>
 
 

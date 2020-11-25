@@ -10,9 +10,8 @@
         $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
         $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
         $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
+        $sub = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
         $msg = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
-
-        $msg = $msg . ' ' . $email;
 
         if(empty($name)){
             header("location: index.php?nouser");
@@ -32,6 +31,12 @@
             header("location: index.php?nomsg");
             exit();
         }
+
+        if(empty($sub)){
+            header("location: index.php?nosubject");
+            exit();
+        }
+
 
 
             if(empty($_POST['security'])){
@@ -56,14 +61,36 @@
 
                     // Content
                     $mail->isHTML(true);                                  // Set email format to HTML
-                    $mail->Subject = 'Stennizworkshop Inschrijfformulier';
-                    $mail->Body    = $msg;
+                    $mail->Subject = $sub;
+                    $mail->Body    = $msg . "<br><br> $email <br> $phone";
                     $mail->AltBody = strip_tags($msg);
 
                         $mail->send();
+
+                        if($mail->send()){
+                            $autoRespond = new PHPMailer();
+
+                            $autoRespond->IsSMTP();
+                            $autoRespond->SMTPDebug  = 0;
+                            $autoRespond->SMTPAuth   = TRUE;
+                            $autoRespond->Port       = 587;
+                            $autoRespond->Username   = "workshopinschrijving@gmail.com";
+                            $autoRespond->Password   = "!wdD233Vef3#45ghWCcw";
+                            $autoRespond->Host       = "smtp.gmail.com";
+
+                            $autoRespond->setFrom('workshopinschrijving@gmail.com', 'Dennis');
+                            $autoRespond->addAddress($email);
+                            $autoRespond->isHTML(true);                                  // Set email format to HTML
+                            $autoRespond->Subject = "Ontvangstbericht stennizworkshops"; 
+                            $autoRespond->Body = "Uw bericht is verzonden en wij nemen binnen 24 uur contact op. Mocht u niets vernemen dan gaat er iets mis en email of bel ons dan aub rechtstreeks." . "<br><br>Team StenniZ<br>0624715745<br>stennizmusic@gmail.com<br>www.stennizworkshops.nl<br>www.stenniz-games.com";
+
+                            $autoRespond->Send(); 
+                        }
+
+
                         header('location: index.php');
 
-                        echo "<script>alert('email verstuurt')</script>";
+
                 } catch (Exception $e) {
                     echo "Message could not be sent.";
                 }
