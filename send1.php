@@ -60,8 +60,6 @@
                     $mail->AltBody = strip_tags($message);
                     $mail->addAttachment($file);
 
-
-                        $mail->send();
                         header('location: index.php');
 
                         if($mail->send()){

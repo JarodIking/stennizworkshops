@@ -41,7 +41,7 @@ a:visited{
 /* contact --------------------------------------------------------------------------- */
 #contactCon{
     position: relative;
-    width: 200px;
+    width: 350px;
     height: auto;
     float: left;
     margin-bottom: 12%;
@@ -50,6 +50,7 @@ a:visited{
 #contactTitle{
     position: relative;
     font-size: 40px;
+    width: 100%;
     float: left;
     margin-bottom: 10px;
 }
@@ -57,33 +58,39 @@ a:visited{
 #contactName{
     position: relative;
     font-size: 20px;
+    width: 100%;
     float: left;
     margin-bottom: -3px;
 }
 
-#contactEmail{
+.contactText{
     position: relative;
     font-size: 20px;
+    width: 100%;
     float: left;
 }
 
-#contactTelephone{
+.contactNews{
     position: relative;
     font-size: 20px;
+    width: 100%;
     float: left;
+    margin-top: 10px;
 }
 
-#contactStreet{
+.subscribeBt{
     position: relative;
-    font-size: 20px;
     float: left;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: rgb(255, 220, 94) 1px solid;
+    background-color: rgb(46, 47, 97);
+    color:rgb(255, 220, 94) ;
+    height: 30px;
+    cursor: pointer;
 }
 
-#contactCity{
-    position: relative;
-    font-size: 20px;
-    float: left;
-}
 
 .imageLinks{
     position: relative;
@@ -99,6 +106,10 @@ a:visited{
 
 #instaLogo{
     margin-left: 20px;
+    cursor: pointer;
+}
+
+#whatsappLink{
     cursor: pointer;
 }
 /* ------------------------------------------------------------------------------- */
@@ -385,3 +396,55 @@ img{
     object-fit: cover;
 }
 /* slider -------------------------------------------------------------------------- */
+
+
+
+/* nieuwsbrief --------------------------------------- */
+
+#nieuwsbrief{
+    display: none !important;
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(90deg, #4158d0 0%, #6356cc 25%, #8154c8 50%, #a252c4 75%, #c850c0 100%);
+    z-index: 10;
+    top: 350px;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.hidden{
+    display: block !important;
+}
+
+.submit{
+    position: relative;
+    left: 200px;
+}
+
+.text{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.closeSubscribe{
+    position: relative;
+    width: 50px;
+    height: 20px;
+    box-sizing: border-box;
+    border: rgb(255, 220, 94) 1px solid;
+    border-radius: 5px;
+    background-color: rgb(46, 47, 97);
+    color:rgb(255, 220, 94) ;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    left: 220px;
+    top: 5px;
+    cursor: pointer;
+}

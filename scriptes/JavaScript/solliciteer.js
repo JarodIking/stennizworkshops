@@ -1,6 +1,43 @@
 window.addEventListener('load', ()=>{
     const vacatuurView = document.querySelector('#vacatuurView');
-    const subject = document.querySelector('#subject')
+    const subject = document.querySelector('#subject');
+    const link1 = document.querySelector('#link1');
+    const link2 = document.querySelector('#link2');
+    const teamwork = document.querySelector('#toTeamwork');
+    const logo = document.querySelector('#navbarImg');
+    const home = document.querySelector('#home');
+    const overOns = document.querySelector('#overOns');
+    const contact = document.querySelector('#contact');
+
+    link1.onclick = ()=>{
+        window.location.href='../../workshopPages/bso'
+    }
+
+    link2.onclick = ()=>{
+        window.location.href='../../workshopPages/bso'
+    }
+
+    teamwork.onclick = ()=>{
+        window.location.href='../../workshopPages/teamwork'
+    }
+
+    logo.onclick = ()=>{
+        window.location.href='http://www.stennizworkshops.nl'
+    }
+
+    home.onclick = ()=>{
+        window.location.href='http://www.stennizworkshops.nl'
+    }
+
+    overOns.onclick = ()=>{
+        window.location.href='../html/overOns.html'
+    }
+
+    contact.onclick = ()=>{
+        window.location.href='../html/contact.html'
+    }
+
+
 
 
     // vacatuur docent game design

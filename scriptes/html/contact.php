@@ -1,8 +1,3 @@
-
-
-
-
-
 <html>
     <head>
         <title>contact/prijs</title>
@@ -16,6 +11,16 @@
         <script src="https://kit.fontawesome.com/8381c75a1f.js" crossorigin="anonymous"></script>
     </head>
     <body>
+
+        <form id="nieuwsbrief" method="POST" action="../../send2.php">
+            <input class='text' type="email" name="email" placeholder="vull hier u email address in">
+            <input class='submit' type="submit">
+            <br>
+            <div class="closeSubscribe" id="close">Terug</div>
+        </form>
+
+
+
         <!-- navbar -->
     <div id='navbar'>
         <!-- left part -->
@@ -80,19 +85,22 @@
         <div id="firsthalf">
             <div id='contactCon'>
                 <div id='contactTitle'>CONTACT</div>
-                <div id='contactName'>D. Renkema</div>
-                <div id='contactEmail'><a href='mailto:stennizmusic@gmail.com'>stennizmusic@gmail.com</a></div>
-                <div id='contactTelephone'>0624715745</div>
-                <div id='contactStreet'>melissekade 311</div>
-                <div id='contactCity'>3544 CX Utrecht</div>
+                <div class="contactText">D. Renkema</div>
+                <div class="contactText"><a href='mailto:stennizmusic@gmail.com'>stennizmusic@gmail.com</a></div>
+                <div class="contactText">0624715745</div>
+                <div class="contactText">melissekade 311</div>
+                <div class="contactText">3544 CX Utrecht</div>
                 <div class="imageLinks">
-                    <div class="logos">
+                    <div class="logos" id="whatsappLink">
                         <img src="../../media/fotos/contact/whatsappLogo.png" alt="">
                     </div>
                     <div id='instaLogo' class="logos">
                         <img src="../../media/fotos/contact/instagramLogo.png" alt="">
                     </div>
                 </div>
+                <div class="contactNews">Klik hier om automatisch op de hoogte te blijven van nieuwe workshops en reeksen!</div>
+                <button id="revealPopup" class="subscribeBt">Aanmelden</button>
+
             </div>
 
                 <form id='mailCon' method='post' action='../../send.php'>
@@ -203,18 +211,31 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="../JavaScript/glide.min.js"></script>
     <script>
         const config = {
             type: 'carousel',
             perView: 6,
-            perSwipe: '|',
+            perSwipe: 3,
             dots: '.dots',
-            autoplay: 1000
+            autoplay: 2000
         }
         new Glide('.glide', config).mount()
 
       </script>
+
+
+<?php 
+    if($_GET){
+        $view = $_GET['view'];
+        if($view == 1){
+            echo "<script>document.getElementById('nieuwsbrief').setAttribute('style', 'display: block !important');</script>";
+        }
+    }
+?>
+
     </body>
 </html>
+
+
 
