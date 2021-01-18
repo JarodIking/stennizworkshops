@@ -283,23 +283,6 @@
         "bso":  false
     },
 
-    {
-        "id": "ER-OntsnapDeKermis",
-        "title": "ER – Onstnap de Kermis",
-        "intro": "Ontgrendel games en ontsnap aan de clown!",
-        "about": "Uw lokaal of ruimte wordt een Escape room vol met spannende puzzels, teamspellen en munten. Er worden twee teams gevormd die tegen elkaar en de klok strijden om de benodigde punten te behalen.",
-        "goals": "technisch inzicht, nadenken en samenwerken, betrokkenheid, energie en vertrouwen in jezelf door te presteren",
-        "age": "4 t/m onbeperkt",
-        "amount": "tot 20 a 25",
-        "time": "75 tot 90 min",
-        "required": "lokaal of gesloten ruimte (geen gymzaal), digiboard pré; schatkisten, puzzels etc. Laptop en audiosysteem",
-        "given": "",
-        "location": "uw locatie",
-        "result": "teambuilding en voldoening blijdschap bij het winnen",
-        "img": "kemris.jpg",
-        "video": "",
-        "bso":  false
-    },
 
     
     {
@@ -318,6 +301,8 @@
         "video": "",
         "bso":  true
     }
+
+
 
 
 

@@ -349,7 +349,7 @@ function ws(ws1){
                 workshop15();
             }
 
-            if(ws1 == 'erontsnapdekermis'){
+            if(ws1 == 'postdrukkerij'){
                 function workshop16(){
                     $("#workshopTitle").html(data[16].title);
                     $("#intro").html(data[16].intro);
@@ -370,26 +370,6 @@ function ws(ws1){
                 workshop16();
             }
 
-            if(ws1 == 'postdrukkerij'){
-                function workshop17(){
-                    $("#workshopTitle").html(data[17].title);
-                    $("#intro").html(data[17].intro);
-                    $("#about").html(data[17].about);
-                    $("#goals").html(data[17].goals);
-                    $("#age").html(data[17].age);
-                    $("#amount").html(data[17].amount);
-                    $("#time").html(data[17].time);
-                    $("#required").html(data[17].required);
-                    $("#given").html(data[17].given);
-                    $("#location").html(data[17].location);
-                    $("#result").html(data[17].result);
-                    reveal();
-                    $('#video').css({filter: "grayscale(0.9)"});
-                    $("html, body").animate({ scrollTop: 700 }, 500);
-    
-                }
-                workshop17();
-            }
 
         }
 
@@ -410,7 +390,7 @@ $(window).ready(function(){
 
     // navbar links----------------------------------------------------------------------------------------------
     $("#contact").click(function(){
-        window.location.href = '../../scriptes/html/contact.html'
+        window.location.href = '../../scriptes/html/contact.php'
     });
 
     $('#overOns').click(function(){
@@ -829,25 +809,7 @@ $(window).ready(function(){
 
             });
 
-            $("#pol17").click(function(){
-                $("#workshopTitle").html(data[17].title);
-                $("#intro").html(data[17].intro);
-                $("#about").html(data[17].about);
-                $("#goals").html(data[17].goals);
-                $("#age").html(data[17].age);
-                $("#amount").html(data[17].amount);
-                $("#time").html(data[17].time);
-                $("#required").html(data[17].required);
-                $("#given").html(data[17].given);
-                $("#result").html(data[17].result);
-                reveal();
-                $('#video').css({filter: "grayscale(0.9)"});
-                $("html, body").animate({ scrollTop: 700 }, 500);
 
-
-            
-
-            });
 
 
 

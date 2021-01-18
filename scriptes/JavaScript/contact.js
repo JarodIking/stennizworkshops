@@ -36,14 +36,14 @@ window.addEventListener('load', ()=>{
     }
 
     close.onclick = ()=>{
-        if(attr == 'none'){
+        if(attr == 'block'){
             news1.setAttribute('style', 'display: block !important');
-            attr = 'none'
+            attr = 'none';
+            // console.log(attr)
         } else {
             news1.setAttribute('style', 'display: none !important');
             attr = news1.style.display;
-            console.log(attr);    
-
+            // console.log(attr);    
         }
     }
 

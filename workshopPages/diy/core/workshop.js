@@ -49,7 +49,7 @@ $(window).ready(function(){
 
     // navbar links----------------------------------------------------------------------------------------------
     $("#contact").click(function(){
-        window.location.href = '../../scriptes/html/contact.html'
+        window.location.href = '../../scriptes/html/contact.php'
     });
 
     $('#overOns').click(function(){

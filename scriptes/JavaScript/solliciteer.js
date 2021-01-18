@@ -34,7 +34,7 @@ window.addEventListener('load', ()=>{
     }
 
     contact.onclick = ()=>{
-        window.location.href='../html/contact.html'
+        window.location.href='../html/contact.php'
     }
 
 

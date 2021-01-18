@@ -427,7 +427,7 @@ $(window).ready(function(){
 
     // navbar links----------------------------------------------------------------------------------------------
     $("#contact").click(function(){
-        window.location.href = '../../scriptes/html/contact.html'
+        window.location.href = '../../scriptes/html/contact.php'
     });
 
     $('#overOns').click(function(){
@@ -506,68 +506,68 @@ $(window).ready(function(){
 
 
             // click functions for extra information about workshops
-            $("#pol0").click(function(){
-                $("#workshopTitle").html(data[0].title);
-                $("#intro").html(data[0].intro);
-                $("#about").html(data[0].about);
-                $("#goals").html(data[0].goals);
-                $("#age").html(data[0].age);
-                $("#amount").html(data[0].amount);
-                $("#time").html(data[0].time);
-                $("#required").html(data[0].required);
-                $("#given").html(data[0].given);
-                $("#location").html(data[0].location);
-                $("#result").html(data[0].result);
-                $('#video').css({filter: "grayscale(0.9)"});
-                $("html, body").animate({ scrollTop: 200 }, 500);
+            // $("#pol0").click(function(){
+            //     $("#workshopTitle").html(data[0].title);
+            //     $("#intro").html(data[0].intro);
+            //     $("#about").html(data[0].about);
+            //     $("#goals").html(data[0].goals);
+            //     $("#age").html(data[0].age);
+            //     $("#amount").html(data[0].amount);
+            //     $("#time").html(data[0].time);
+            //     $("#required").html(data[0].required);
+            //     $("#given").html(data[0].given);
+            //     $("#location").html(data[0].location);
+            //     $("#result").html(data[0].result);
+            //     $('#video').css({filter: "grayscale(0.9)"});
+            //     $("html, body").animate({ scrollTop: 200 }, 500);
 
-                if(data[0].title == 'Film & Muziek Avontuur'){
-                    $("body").append("<div id='popUp'></div")
+            //     if(data[0].title == 'Film & Muziek Avontuur'){
+            //         $("body").append("<div id='popUp'></div")
 
-                    $("#popUp").css("background-image","url(media/fotos/pdf-1.png)");
+            //         $("#popUp").css("background-image","url(media/fotos/pdf-1.png)");
                     
-                    $("#popUp").append("<div id='exitPopUp'>X</div")    
-                } else {
-                    reveal();
-                }
+            //         $("#popUp").append("<div id='exitPopUp'>X</div")    
+            //     } else {
+            //         reveal();
+            //     }
 
-                $("#exitPopUp").on('click',()=>{
-                    $('#popUp').remove();
-                })
+            //     $("#exitPopUp").on('click',()=>{
+            //         $('#popUp').remove();
+            //     })
     
-            });    
+            // });    
             
         
 
-            $("#pol1").click(function(){
-                $("#workshopTitle").html(data[1].title);
-                $("#intro").html(data[1].intro);
-                $("#about").html(data[1].about);
-                $("#goals").html(data[1].goals);
-                $("#age").html(data[1].age);
-                $("#amount").html(data[1].amount);
-                $("#time").html(data[1].time);
-                $("#required").html(data[1].required);
-                $("#given").html(data[1].given);
-                $("#result").html(data[1].result);
-                $('#video').css({filter: "grayscale(0.9)"});
-                $("html, body").animate({ scrollTop: 200 }, 500);
+            // $("#pol1").click(function(){
+            //     $("#workshopTitle").html(data[1].title);
+            //     $("#intro").html(data[1].intro);
+            //     $("#about").html(data[1].about);
+            //     $("#goals").html(data[1].goals);
+            //     $("#age").html(data[1].age);
+            //     $("#amount").html(data[1].amount);
+            //     $("#time").html(data[1].time);
+            //     $("#required").html(data[1].required);
+            //     $("#given").html(data[1].given);
+            //     $("#result").html(data[1].result);
+            //     $('#video').css({filter: "grayscale(0.9)"});
+            //     $("html, body").animate({ scrollTop: 200 }, 500);
 
-                if(data[1].title == 'Game Design Avontuur'){
-                    $("body").append("<div id='popUp'></div")
+            //     if(data[1].title == 'Game Design Avontuur'){
+            //         $("body").append("<div id='popUp'></div")
                     
-                    $("#popUp").css("background-image","url(media/fotos/game.jpg)");
+            //         $("#popUp").css("background-image","url(media/fotos/game.jpg)");
                                     
-                    $("#popUp").append("<div id='exitPopUp'>X</div")    
-                } else {
-                    reveal();
-                }
+            //         $("#popUp").append("<div id='exitPopUp'>X</div")    
+            //     } else {
+            //         reveal();
+            //     }
 
-                $("#exitPopUp").on('click',()=>{
-                    $('#popUp').remove();
-                })
+            //     $("#exitPopUp").on('click',()=>{
+            //         $('#popUp').remove();
+            //     })
 
-            });
+            // });
 
 
 

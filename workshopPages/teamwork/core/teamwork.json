@@ -1,7 +1,7 @@
 [
     {
-        "id": "escapeRoom",
-        "title": "ER - Pirate Treasure",
+        "id": "ER - Pirate Treasure",
+        "title": "Escape Room Pirate Treasure",
         "intro": "Ontgrendel schatten en win met jouw team!",
         "about": "Uw lokaal of ruimte wordt een Escape room vol met spannende puzzels,schatkisten en piratenmunten. Er worden twee teams gevormd die tegen elkaar en de klok strijden om de benodigde punten te behalen.",
         "goals": "technisch inzicht, nadenken en samenwerken, betrokkenheid, energie en vertrouwen in jezelf door te presteren.",
@@ -17,7 +17,7 @@
     },
 
     {
-        "id": "makeAHit",
+        "id": "Beat Making",
         "title": "Beat Making",
         "intro": "Maak jouw eigen vette beat als een echte DJ!",
         "about": "Tijdens deze workshop gaan de deelnemers in tweetallen een eigen beat maken. ",
@@ -34,7 +34,7 @@
     },
 
     {
-        "id": "rapstudio",
+        "id": "Rap",
         "title": "Rap",
         "intro": "Pak de microfoon en laat jezelf horen!",
         "about": "Tijdens deze workshop gaan de deelnemers met de hele groep en individueel rap teksten schrijven. Er komt een korte geschiedenisles voorbij over het ontstaan van de rap en Hiphop en een demonstratie van de docent voor extra inspiratie.",
@@ -51,7 +51,7 @@
     },
 
     {
-        "id": "slagwerk",
+        "id": "Slagwerk",
         "title": "Slagwerk",
         "intro": "Maak een vette beat met de groep!",
         "about": "Tijdens deze workshop gaan de deelnemers in teamverband een eigen beat maken. ",
@@ -68,7 +68,7 @@
     },
 
     {
-        "id": "streetbeats",
+        "id": "Streetbeats",
         "title": "Streetbeats",
         "intro": "Maak een vette beat met de groep!",
         "about": "Tijdens deze workshop gaan de deelnemers in teamverband een eigen beat maken. ",
@@ -86,7 +86,7 @@
 
 
     {
-        "id": "eigenSong",
+        "id": "Eigen Song",
         "title": "Eigen song",
         "intro": "Maak jouw eigen lied en laat het horen!",
         "about": "Voor de leerlingen die enthousiast zijn geworden voor mixen, geeft de docent aan het einde van de les nog handige tips voor het opnemen en mixen thuis. Een onvergetelijke workshop met een eigen song als eindresultaat!",
@@ -103,7 +103,7 @@
     },
 
     {
-        "id": "escapeDeClassroom",
+        "id": "Escape de classroom",
         "title": "Escape de Classroom",
         "intro": "",
         "about": "Het lokaal of ruimte wordt snel omgebouwd tot een Escape room. Wij zetten puzzels klaar en zetten de juiste sfeer met licht, muziek en een presentatie. De deelnemers worden opgesplitst in 2 teams die met een eigen teamcaptain tegen elkaar strijden en samenwerken om alle hoofdpuzzels op te lossen en te ontsnappen uit het lokaal (treasure island). Door puzzels op te lossen is er progressie en tussendoor zijn er bonuspuzzels en spelelementen om iedereen bezig te houden. Vanwege het piratenthema zijn er hier en daar wat schedeltjes afgebeeld. Mocht u hier een probleem mee hebben dan graag van te voren melden. Het wordt niet als ‘te eng’ ervaren maar als spannend.",
@@ -120,7 +120,7 @@
     },
 
     {
-        "id": "creativeBedrijfsgroet",
+        "id": "Creative bedrijfsgroet",
         "title": "Creative bedrijfsgroet",
         "intro": "",
         "about": "Wil jij met jou bedrijf een creatieve bedrijfsgroet maken denk aan een vrolijk foto of een leuk filmpje? Ga aan de slag met de workshop docent. Ga brainstormen over ideeën en wat jullie willen bereiken met de groet. Aan het einde gaan jullie het concept uitwerken en hebben jullie je eigen gemaakte creatieve bedrijfsgroet.",
@@ -137,7 +137,7 @@
     },
 
     {
-        "id": "commercialVideo",
+        "id": "Crazy Commercial!",
         "title": "Crazy Commercial!",
         "intro": "Maak jouw eigen lied en laat het horen!",
         "about": "Maak als team en bedrijf jouw eigen herinnerbare promotiefilm. Dat betekent dat ieder team de creativiteit volledig de vrije loop kan laten, en zelf een invulling verzint van het thema als je geen aangegeven thema hebt natuurlijk",
@@ -154,7 +154,7 @@
     },
 
     {
-        "id": "outOfTheBoxSeminar",
+        "id": "Beat the Box",
         "title": "Beat the Box",
         "intro": "",
         "about": "Op interactieve wijze worden de toeschouwers geprikkeld om na te denken over de eigen kaders. De workshop is een interactieve mix tussen entertainment, mindmappen, uitdagende opdrachten en stof tot nadenken waarbij dagelijkse anekdotes en hoog niveau goochelen als metafoor voor creatief denken wordt gebruikt.",
@@ -171,7 +171,7 @@
     },
 
     {
-        "id": "stopMotion",
+        "id": "Stop Motion",
         "title": "Stop Motion",
         "intro": "Maak jouw eigen bewegende film!",
         "about": "Stop Motion-animatie is een filmtechniek waarbij je foto’s achter elkaar plakt met als doel er een filmpje van te maken. Per foto veranderden de objecten steeds een beetje. Door vervolgens alle foto’s achter elkaar af te spelen lijken de voorwerpen of tekeningen uit zichzelf te bewegen.",
@@ -188,7 +188,7 @@
     },
 
     {
-        "id": "korteFilm",
+        "id": "24 Film Project",
         "title": "24 Film Project",
         "intro": "",
         "about": "Tijdens deze workshop leer jij hoe jij op een professionele wijze een film kan maken met een smartphone of tablet. Je leert niet alleen hoe je mooie beelden maakt en goed geluid opneemt, maar ook hoe je een pakkend verhaal kunt vertellen in beeld. De workshop is special ontwikkeld voor iedereen die meer wil halen uit de smartphone bij het maken van een vlog, beeldverslag of vastleggen van een interview.",
@@ -205,7 +205,7 @@
     },
 
     {
-        "id": "acrobatiek",
+        "id": "Acrobatiek",
         "title": "Acrobatiek",
         "intro": "",
         "about": " Wil jij ook is de hoogte in of een gave piramide maken met vrienden, collega’s of klasgenoten. In deze workshop gaan je figuren van twee of meer mensen bouwen. Je hoeft er niet heel sterk of lenig voor te zijn. Het gaat om samenwerking, balans en vertrouwen. Samen de balans vinden is heel uitdagend en leuk en geeft een andere kijk op elkaar. Deze workshop is dus ook heel geschikt als teambuildings activiteit, op school en jongerenwerk. En verder ook gewoon leuk natuurlijk bij teamuitjes, groesuitjes en verenigingen.",
@@ -221,6 +221,25 @@
         "bso":  false
 
     },
+
+    {
+        "id": "ER-OntsnapDeKermis",
+        "title": "Escape room - Onstnap de Kermis",
+        "intro": "Ontgrendel games en ontsnap aan de clown!",
+        "about": "Uw lokaal of ruimte wordt een Escape room vol met spannende puzzels, teamspellen en munten. Er worden twee teams gevormd die tegen elkaar en de klok strijden om de benodigde punten te behalen.",
+        "goals": "technisch inzicht, nadenken en samenwerken, betrokkenheid, energie en vertrouwen in jezelf door te presteren",
+        "age": "4 t/m onbeperkt",
+        "amount": "tot 20 a 25",
+        "time": "75 tot 90 min",
+        "required": "lokaal of gesloten ruimte (geen gymzaal), digiboard pré; schatkisten, puzzels etc. Laptop en audiosysteem",
+        "given": "schatkisten, puzzels etc. laptop en audiosysteem",
+        "location": "uw locatie",
+        "result": "teambuilding en voldoening blijdschap bij het winnen",
+        "img": "kermis.jpg",
+        "video": "",
+        "bso":  false
+    },
+
 
     {
         "id": "kettingReactie",

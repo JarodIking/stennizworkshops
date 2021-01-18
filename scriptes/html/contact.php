@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <html>
     <head>
         <title>contact/prijs</title>
@@ -18,6 +24,8 @@
             <br>
             <div class="closeSubscribe" id="close">Terug</div>
         </form>
+
+
 
 
 
@@ -225,17 +233,20 @@
       </script>
 
 
-<?php 
-    if($_GET){
-        $view = $_GET['view'];
-        if($view == 1){
-            echo "<script>document.getElementById('nieuwsbrief').setAttribute('style', 'display: block !important');</script>";
-        }
-    }
-?>
 
     </body>
 </html>
+
+s
+<?php 
+            if($_GET){
+                $view = $_GET['view'];
+                if($view == 1){
+                    echo "<script>document.getElementById('nieuwsbrief').setAttribute('style', 'display: block !important');attr = 'none'; console.log(attr);  </script>";
+                }
+            }
+?>
+
 
 
 

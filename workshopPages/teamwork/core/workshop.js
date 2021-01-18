@@ -283,7 +283,8 @@ function ws(ws1){
                 workshop12();
             }
 
-            if(ws1 == 'kettingreactie'){
+
+            if(ws1 == 'erkermis'){
                 function workshop13(){
                     $("#workshopTitle").html(data[13].title);
                     $("#intro").html(data[13].intro);
@@ -303,6 +304,29 @@ function ws(ws1){
                 }
                 workshop13();
             }
+
+            if(ws1 == 'kettingreactie'){
+                function workshop14(){
+                    $("#workshopTitle").html(data[14].title);
+                    $("#intro").html(data[14].intro);
+                    $("#about").html(data[14].about);
+                    $("#goals").html(data[14].goals);
+                    $("#age").html(data[14].age);
+                    $("#amount").html(data[14].amount);
+                    $("#time").html(data[14].time);
+                    $("#required").html(data[14].required);
+                    $("#given").html(data[14].given);
+                    $("#location").html(data[14].location);
+                    $("#result").html(data[14].result);
+                    reveal();
+                    $('#video').css({filter: "grayscale(0.9)"});
+                    $("html, body").animate({ scrollTop: 700 }, 500);
+    
+                }
+                workshop14();
+            }
+
+
         }
 
     })
@@ -319,7 +343,7 @@ $(window).ready(function(){
 
     // navbar links----------------------------------------------------------------------------------------------
     $("#contact").click(function(){
-        window.location.href = '../../scriptes/html/contact.html'
+        window.location.href = '../../scriptes/html/contact.php'
     });
 
     $('#overOns').click(function(){
@@ -369,7 +393,7 @@ $(window).ready(function(){
         success: function(data){
             // generate polariods
             for(i = 0;i<data.length;i++){
-                $("#polariodView").append("<div id=" + "cell"+ i + " " + "class='polariodCell'><div id=" + "pol" + i + " " + "class='polariod' ><div id=" + "photo" + i + " " + " class='polariodPhoto'><div class='polariodTitle'>"+ data[i].title + "</div></div></div></div>"); 
+                $("#polariodView").append("<div id=" + "cell"+ i + " " + "class='polariodCell'><div id=" + "pol" + i + " " + "class='polariod' ><div id=" + "photo" + i + " " + " class='polariodPhoto'><div class='polariodTitle'>"+ data[i].id + "</div></div></div></div>"); 
                 $("#photo" + i).css("background-image" , 'url(' + 'media/fotos/'+ data[i].img + ')');
 
                 // polariod rotation
@@ -661,6 +685,26 @@ $(window).ready(function(){
             
 
             });
+
+            $("#pol14").click(function(){
+                $("#workshopTitle").html(data[14].title);
+                $("#intro").html(data[14].intro);
+                $("#about").html(data[14].about);
+                $("#goals").html(data[14].goals);
+                $("#age").html(data[14].age);
+                $("#amount").html(data[14].amount);
+                $("#time").html(data[14].time);
+                $("#required").html(data[14].required);
+                $("#given").html(data[14].given);
+                $("#result").html(data[14].result);
+                reveal();
+                $('#video').css({filter: "grayscale(0.9)"});
+                $("html, body").animate({ scrollTop: 700 }, 500);
+
+            
+
+            });
+
 
 
 

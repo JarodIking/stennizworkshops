@@ -169,6 +169,11 @@
                 echo "<script type='text/javascript'> ws('kettingreactie'); </script>";  
             }
 
+            if($ws == 'erkermis'){
+                echo "<script type='text/javascript'> ws('erkermis'); </script>";  
+            }
+
+
         }   
         sw($ws);
     }

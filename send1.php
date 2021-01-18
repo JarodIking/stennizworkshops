@@ -69,11 +69,11 @@
                             $autoRespond->SMTPDebug  = 0;
                             $autoRespond->SMTPAuth   = TRUE;
                             $autoRespond->Port       = 587;
-                            $autoRespond->Username   = "workshopinschrijving@gmail.com";
-                            $autoRespond->Password   = "!wdD233Vef3#45ghWCcw";
+                            $autoRespond->Username   = "stennizSolicitatie@gmail.com";
+                            $autoRespond->Password   = "IUGA8934-00oB";
                             $autoRespond->Host       = "smtp.gmail.com";
 
-                            $autoRespond->setFrom('workshopinschrijving@gmail.com', 'Dennis');
+                            $autoRespond->setFrom('stennizSolicitatie@gmail.com', 'Dennis');
                             $autoRespond->addAddress($email);
                             $autoRespond->isHTML(true);                                  // Set email format to HTML
                             $autoRespond->Subject = "Ontvangstbericht stennizworkshops"; 

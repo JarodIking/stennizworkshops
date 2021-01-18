@@ -191,13 +191,14 @@
                 echo "<script type='text/javascript'> ws('zeefdrukken'); </script>";  
             }
 
-            if($ws == 'erontsnapdekermis'){
-                echo "<script type='text/javascript'> ws('erontsnapdekermis'); </script>";  
-            }
-
             if($ws == 'postdrukkerij'){
                 echo "<script type='text/javascript'> ws('postdrukkerij'); </script>";  
             }
+
+            if($ws == 'testPolariod'){
+                echo "<script type='text/javascript'> ws('testPolariod'); </script>";  
+            }
+
         }   
         sw($ws);
     }

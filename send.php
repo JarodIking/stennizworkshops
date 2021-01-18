@@ -56,7 +56,7 @@
 
                     //Recipients
                     $mail->setFrom('workshopinschrijving@gmail.com', $name);
-                    $mail->addAddress('jarodiking17@gmail.com');     // Add a recipient
+                    $mail->addAddress('stennizmusic@gmail.com');     // Add a recipient
 
 
                     // Content

@@ -14,11 +14,11 @@ $(window).ready(function (){
     });
 
     $("#contact").click(function(){
-        window.location.href = "scriptes/html/contact.html";
+        window.location.href = "scriptes/html/contact.php";
     });
 
     $('#overOns').click(function(){
-        window.location.href = "scriptes/html/overOns.html";
+        window.location.href = "scriptes/html/overOns.php";
     })
 
     $('#toTeamwork').click(()=>{
