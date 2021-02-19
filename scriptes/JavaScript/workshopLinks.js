@@ -18,7 +18,7 @@ $(window).ready(function (){
     });
 
     $('#overOns').click(function(){
-        window.location.href = "scriptes/html/overOns.php";
+        window.location.href = "scriptes/html/overOns.html";
     })
 
     $('#toTeamwork').click(()=>{
